@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import banner from './irregular_banner.png';
 import professor from './professor.jpg';
@@ -10,6 +10,13 @@ import Housing from './components/housing.js';
 import './App.css';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTab: null
+    }
+  }
   
   render() {
     return (
@@ -31,18 +38,38 @@ class App extends Component {
   renderHeader() {
     return (
       <header className="App-header">
-        <img className="banner" src={banner} alt="irregular" />
-        <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/">IRREACT</Navbar.Brand>
+        <Link to="/">
+          <img className="banner" src={banner} alt="irregular" />
+        </Link>
+        <Navbar class="navbar">
+          <Navbar.Brand className="navbar-brand">
+            <Link class="brand" to="/" onClick={() => this.setSelectedTab(null)}>Irreact</Link>
+          </Navbar.Brand>
           <Nav>
-            <Nav.Link href="/languages">Languages</Nav.Link>
-            <Nav.Link href="/frameworks">Frameworks</Nav.Link>
-            <Nav.Link href="/careers">Careers</Nav.Link>
-            <Nav.Link href="/housing">Housing</Nav.Link>
+            <Link className={this.getTabClass("languages")} to="/languages" onClick={() => this.setSelectedTab("languages")}>
+              LANGUAGES
+            </Link>
+            <Link className={this.getTabClass("frameworks")} to="/frameworks" onClick={() => this.setSelectedTab("frameworks")}>
+              FRAMEWORKS
+            </Link>
+            <Link className={this.getTabClass("careers")} to="/careers" onClick={() => this.setSelectedTab("careers")}>
+              CAREERS
+            </Link>
+            <Link className={this.getTabClass("housing")} to="/housing" onClick={() => this.setSelectedTab("housing")}>
+              HOUSING
+            </Link>
           </Nav>
         </Navbar>
       </header>
     );
+  }
+
+  setSelectedTab(tabName) {
+    this.setState({selectedTab: tabName});
+  }
+
+  getTabClass(tabName) {
+    return this.state.selectedTab === tabName ? "navbar-link-selected" : "navbar-link";
   }
 
   home() {
