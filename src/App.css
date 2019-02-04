@@ -9,3 +9,61 @@
 .professor {
   width: 900px;
 }
+
+.navbar {
+  background-color: #343a40;
+  height: 44px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-brand {
+  width: 95px;
+  margin-left: 45px;
+}
+
+.brand {
+  color: #e3e6e8;
+}
+
+.brand:hover {
+  color: #e3e6e8;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color: #e3e6e8;
+  background-color: #5c6670;
+  padding-top: 6px;
+  margin: 2px;
+  height: 36px;
+  width: 180px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #e3e6e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link-selected {
+  color: #e3e6e8;
+  background-color: #be5e38;
+  padding-top: 6px;
+  margin: 2px;
+  height: 36px;
+  width: 180px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link-selected:hover {
+  color: #e3e6e8;
+  text-decoration: none;
+  font-weight: bold;
+}
