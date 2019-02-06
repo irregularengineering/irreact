@@ -9,6 +9,13 @@ import Careers from './components/careers.js';
 import Housing from './components/housing.js';
 import './App.css';
 
+const TABS = {
+  languages: "/languages",
+  frameworks: "/frameworks",
+  careers: "/careers",
+  housing: "/housing"
+};
+
 class App extends Component {
 
   constructor(props) {
@@ -16,6 +23,14 @@ class App extends Component {
     this.state = {
       selectedTab: null
     }
+  }
+
+  componentDidMount() {
+    let tabName = null;
+    if (Object.values(TABS).indexOf(window.location.pathname) >= 0) {
+      tabName = window.location.pathname.slice(1);
+    }
+    this.setSelectedTab(tabName);
   }
   
   render() {
@@ -25,10 +40,10 @@ class App extends Component {
           { this.renderHeader() }
           <body>
             <Route path="/" exact component={ this.home } />
-            <Route path="/languages" component={ () => (<Languages />) } />
-            <Route path="/frameworks" component={ () => (<Frameworks />) } />
-            <Route path="/careers" component={ () => (<Careers />) } />
-            <Route path="/housing" component={ () => (<Housing />) } />
+            <Route path={TABS.languages} component={ () => (<Languages />) } />
+            <Route path={TABS.frameworks} component={ () => (<Frameworks />) } />
+            <Route path={TABS.careers} component={ () => (<Careers />) } />
+            <Route path={TABS.housing} component={ () => (<Housing />) } />
           </body>
         </div>
       </Router>
@@ -38,7 +53,7 @@ class App extends Component {
   renderHeader() {
     return (
       <header className="App-header">
-        <Link to="/">
+        <Link to="/" onClick={() => this.setSelectedTab(null)}>
           <img className="banner" src={banner} alt="irregular" />
         </Link>
         <Navbar class="navbar">
@@ -46,16 +61,16 @@ class App extends Component {
             <Link class="brand" to="/" onClick={() => this.setSelectedTab(null)}>Irreact</Link>
           </Navbar.Brand>
           <Nav>
-            <Link className={this.getTabClass("languages")} to="/languages" onClick={() => this.setSelectedTab("languages")}>
+            <Link className={this.getTabClass("languages")} to={TABS.languages} onClick={() => this.setSelectedTab("languages")}>
               LANGUAGES
             </Link>
-            <Link className={this.getTabClass("frameworks")} to="/frameworks" onClick={() => this.setSelectedTab("frameworks")}>
+            <Link className={this.getTabClass("frameworks")} to={TABS.frameworks} onClick={() => this.setSelectedTab("frameworks")}>
               FRAMEWORKS
             </Link>
-            <Link className={this.getTabClass("careers")} to="/careers" onClick={() => this.setSelectedTab("careers")}>
+            <Link className={this.getTabClass("careers")} to={TABS.careers} onClick={() => this.setSelectedTab("careers")}>
               CAREERS
             </Link>
-            <Link className={this.getTabClass("housing")} to="/housing" onClick={() => this.setSelectedTab("housing")}>
+            <Link className={this.getTabClass("housing")} to={TABS.housing} onClick={() => this.setSelectedTab("housing")}>
               HOUSING
             </Link>
           </Nav>
