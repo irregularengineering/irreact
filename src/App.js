@@ -38,13 +38,11 @@ class App extends Component {
       <Router>
         <div className="App">
           { this.renderHeader() }
-          <body>
             <Route path="/" exact component={ this.home } />
             <Route path={TABS.languages} component={ () => (<Languages />) } />
             <Route path={TABS.frameworks} component={ () => (<Frameworks />) } />
             <Route path={TABS.careers} component={ () => (<Careers />) } />
             <Route path={TABS.housing} component={ () => (<Housing />) } />
-          </body>
         </div>
       </Router>
     );
@@ -56,9 +54,9 @@ class App extends Component {
         <Link to="/" onClick={() => this.setSelectedTab(null)}>
           <img className="banner" src={banner} alt="irregular" />
         </Link>
-        <Navbar class="navbar">
+        <Navbar className="navbar">
           <Navbar.Brand className="navbar-brand">
-            <Link class="brand" to="/" onClick={() => this.setSelectedTab(null)}>Irreact</Link>
+            <Link className="brand" to="/" onClick={() => this.setSelectedTab(null)}>Irreact</Link>
           </Navbar.Brand>
           <Nav>
             <Link className={this.getTabClass("languages")} to={TABS.languages} onClick={() => this.setSelectedTab("languages")}>

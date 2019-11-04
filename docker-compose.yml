@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  irregularly:
+    container_name: irregularly-irreact
+    image: irregularengineering/irregularly:latest
+    volumes: 
+      - ./public/data:/opt/irregularly/irregularly/assets/data/
+    command: bash -c "python -m tools.scrape_prog_langs &&
+      python -m tools.scrape_js_frameworks &&
+      python -m tools.scrape_career_data &&
+      python -m tools.scrape_house_data"

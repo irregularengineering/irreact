@@ -1,0 +1,1230 @@
+state,occupation,measure,value
+AL,Computer Programmers,Annual mean wage,       87700
+AL,Computer Programmers,Annual 10th percentile wage,       47700
+AL,Computer Programmers,Annual 25th percentile wage,       62640
+AL,Computer Programmers,Annual median wage,       84230
+AL,Computer Programmers,Annual 75th percentile wage,      106240
+AL,Computer Programmers,Annual 90th percentile wage,      137180
+AL,"Software Developers, Applications",Annual mean wage,       92360
+AL,"Software Developers, Applications",Annual 10th percentile wage,       52150
+AL,"Software Developers, Applications",Annual 25th percentile wage,       67410
+AL,"Software Developers, Applications",Annual median wage,       89440
+AL,"Software Developers, Applications",Annual 75th percentile wage,      115120
+AL,"Software Developers, Applications",Annual 90th percentile wage,      138180
+AL,"Software Developers, Systems Software",Annual mean wage,      103380
+AL,"Software Developers, Systems Software",Annual 10th percentile wage,       65460
+AL,"Software Developers, Systems Software",Annual 25th percentile wage,       77410
+AL,"Software Developers, Systems Software",Annual median wage,       97840
+AL,"Software Developers, Systems Software",Annual 75th percentile wage,      126180
+AL,"Software Developers, Systems Software",Annual 90th percentile wage,      155800
+AL,Web Developers,Annual mean wage,       59560
+AL,Web Developers,Annual 10th percentile wage,       32750
+AL,Web Developers,Annual 25th percentile wage,       43500
+AL,Web Developers,Annual median wage,       54840
+AL,Web Developers,Annual 75th percentile wage,       72430
+AL,Web Developers,Annual 90th percentile wage,       95130
+AK,Computer Programmers,Annual mean wage,       92970
+AK,Computer Programmers,Annual 10th percentile wage,       53120
+AK,Computer Programmers,Annual 25th percentile wage,       67600
+AK,Computer Programmers,Annual median wage,       85590
+AK,Computer Programmers,Annual 75th percentile wage,      102230
+AK,Computer Programmers,Annual 90th percentile wage,      128820
+AK,Web Developers,Annual mean wage,       60040
+AK,Web Developers,Annual 10th percentile wage,       35390
+AK,Web Developers,Annual 25th percentile wage,       42080
+AK,Web Developers,Annual median wage,       53860
+AK,Web Developers,Annual 75th percentile wage,       75070
+AK,Web Developers,Annual 90th percentile wage,       93270
+AZ,Computer Programmers,Annual mean wage,       88700
+AZ,Computer Programmers,Annual 10th percentile wage,       46260
+AZ,Computer Programmers,Annual 25th percentile wage,       66490
+AZ,Computer Programmers,Annual median wage,       80500
+AZ,Computer Programmers,Annual 75th percentile wage,       99230
+AZ,Computer Programmers,Annual 90th percentile wage,      126520
+AZ,"Software Developers, Applications",Annual mean wage,       96120
+AZ,"Software Developers, Applications",Annual 10th percentile wage,       56350
+AZ,"Software Developers, Applications",Annual 25th percentile wage,       73280
+AZ,"Software Developers, Applications",Annual median wage,       94740
+AZ,"Software Developers, Applications",Annual 75th percentile wage,      118490
+AZ,"Software Developers, Applications",Annual 90th percentile wage,      142090
+AZ,"Software Developers, Systems Software",Annual mean wage,      103990
+AZ,"Software Developers, Systems Software",Annual 10th percentile wage,       65400
+AZ,"Software Developers, Systems Software",Annual 25th percentile wage,       80090
+AZ,"Software Developers, Systems Software",Annual median wage,      102620
+AZ,"Software Developers, Systems Software",Annual 75th percentile wage,      124540
+AZ,"Software Developers, Systems Software",Annual 90th percentile wage,      147980
+AZ,Web Developers,Annual mean wage,       71180
+AZ,Web Developers,Annual 10th percentile wage,       39190
+AZ,Web Developers,Annual 25th percentile wage,       51200
+AZ,Web Developers,Annual median wage,       62750
+AZ,Web Developers,Annual 75th percentile wage,       83060
+AZ,Web Developers,Annual 90th percentile wage,      118000
+AR,Computer Programmers,Annual mean wage,       69520
+AR,Computer Programmers,Annual 10th percentile wage,       41740
+AR,Computer Programmers,Annual 25th percentile wage,       52380
+AR,Computer Programmers,Annual median wage,       64040
+AR,Computer Programmers,Annual 75th percentile wage,       79540
+AR,Computer Programmers,Annual 90th percentile wage,      105350
+AR,"Software Developers, Applications",Annual mean wage,       87500
+AR,"Software Developers, Applications",Annual 10th percentile wage,       51360
+AR,"Software Developers, Applications",Annual 25th percentile wage,       65310
+AR,"Software Developers, Applications",Annual median wage,       83830
+AR,"Software Developers, Applications",Annual 75th percentile wage,      107770
+AR,"Software Developers, Applications",Annual 90th percentile wage,      128800
+AR,"Software Developers, Systems Software",Annual mean wage,       82580
+AR,"Software Developers, Systems Software",Annual 10th percentile wage,       52240
+AR,"Software Developers, Systems Software",Annual 25th percentile wage,       65870
+AR,"Software Developers, Systems Software",Annual median wage,       82490
+AR,"Software Developers, Systems Software",Annual 75th percentile wage,       97910
+AR,"Software Developers, Systems Software",Annual 90th percentile wage,      116230
+AR,Web Developers,Annual mean wage,       51370
+AR,Web Developers,Annual 10th percentile wage,       20010
+AR,Web Developers,Annual 25th percentile wage,       38180
+AR,Web Developers,Annual median wage,       50310
+AR,Web Developers,Annual 75th percentile wage,       63380
+AR,Web Developers,Annual 90th percentile wage,       80030
+CA,Computer Programmers,Annual mean wage,       96270
+CA,Computer Programmers,Annual 10th percentile wage,       55120
+CA,Computer Programmers,Annual 25th percentile wage,       73190
+CA,Computer Programmers,Annual median wage,       93620
+CA,Computer Programmers,Annual 75th percentile wage,      119610
+CA,Computer Programmers,Annual 90th percentile wage,      145420
+CA,"Software Developers, Applications",Annual mean wage,      126470
+CA,"Software Developers, Applications",Annual 10th percentile wage,       70800
+CA,"Software Developers, Applications",Annual 25th percentile wage,       94160
+CA,"Software Developers, Applications",Annual median wage,      121210
+CA,"Software Developers, Applications",Annual 75th percentile wage,      152780
+CA,"Software Developers, Applications",Annual 90th percentile wage,      187710
+CA,"Software Developers, Systems Software",Annual mean wage,      127230
+CA,"Software Developers, Systems Software",Annual 10th percentile wage,       75860
+CA,"Software Developers, Systems Software",Annual 25th percentile wage,       95420
+CA,"Software Developers, Systems Software",Annual median wage,      124190
+CA,"Software Developers, Systems Software",Annual 75th percentile wage,      155640
+CA,"Software Developers, Systems Software",Annual 90th percentile wage,      186920
+CA,Web Developers,Annual mean wage,       84270
+CA,Web Developers,Annual 10th percentile wage,       36580
+CA,Web Developers,Annual 25th percentile wage,       52280
+CA,Web Developers,Annual median wage,       76880
+CA,Web Developers,Annual 75th percentile wage,      111400
+CA,Web Developers,Annual 90th percentile wage,      144260
+CO,Computer Programmers,Annual mean wage,       96100
+CO,Computer Programmers,Annual 10th percentile wage,       54180
+CO,Computer Programmers,Annual 25th percentile wage,       69010
+CO,Computer Programmers,Annual median wage,       93790
+CO,Computer Programmers,Annual 75th percentile wage,      118610
+CO,Computer Programmers,Annual 90th percentile wage,      134920
+CO,"Software Developers, Applications",Annual mean wage,      104620
+CO,"Software Developers, Applications",Annual 10th percentile wage,       62940
+CO,"Software Developers, Applications",Annual 25th percentile wage,       81270
+CO,"Software Developers, Applications",Annual median wage,      102530
+CO,"Software Developers, Applications",Annual 75th percentile wage,      126700
+CO,"Software Developers, Applications",Annual 90th percentile wage,      154250
+CO,"Software Developers, Systems Software",Annual mean wage,      122170
+CO,"Software Developers, Systems Software",Annual 10th percentile wage,       79180
+CO,"Software Developers, Systems Software",Annual 25th percentile wage,       94050
+CO,"Software Developers, Systems Software",Annual median wage,      115110
+CO,"Software Developers, Systems Software",Annual 75th percentile wage,      138860
+CO,"Software Developers, Systems Software",Annual 90th percentile wage,      167040
+CO,Web Developers,Annual mean wage,       71490
+CO,Web Developers,Annual 10th percentile wage,       35870
+CO,Web Developers,Annual 25th percentile wage,       48460
+CO,Web Developers,Annual median wage,       66990
+CO,Web Developers,Annual 75th percentile wage,       92030
+CO,Web Developers,Annual 90th percentile wage,      111160
+CT,Computer Programmers,Annual mean wage,       87610
+CT,Computer Programmers,Annual 10th percentile wage,       53250
+CT,Computer Programmers,Annual 25th percentile wage,       66140
+CT,Computer Programmers,Annual median wage,       84720
+CT,Computer Programmers,Annual 75th percentile wage,      104910
+CT,Computer Programmers,Annual 90th percentile wage,      125480
+CT,"Software Developers, Applications",Annual mean wage,      103390
+CT,"Software Developers, Applications",Annual 10th percentile wage,       64730
+CT,"Software Developers, Applications",Annual 25th percentile wage,       78080
+CT,"Software Developers, Applications",Annual median wage,       99790
+CT,"Software Developers, Applications",Annual 75th percentile wage,      125780
+CT,"Software Developers, Applications",Annual 90th percentile wage,      153480
+CT,"Software Developers, Systems Software",Annual mean wage,      104510
+CT,"Software Developers, Systems Software",Annual 10th percentile wage,       65330
+CT,"Software Developers, Systems Software",Annual 25th percentile wage,       82580
+CT,"Software Developers, Systems Software",Annual median wage,      102690
+CT,"Software Developers, Systems Software",Annual 75th percentile wage,      126040
+CT,"Software Developers, Systems Software",Annual 90th percentile wage,      151210
+CT,Web Developers,Annual mean wage,       76310
+CT,Web Developers,Annual 10th percentile wage,       42600
+CT,Web Developers,Annual 25th percentile wage,       53940
+CT,Web Developers,Annual median wage,       72050
+CT,Web Developers,Annual 75th percentile wage,       93880
+CT,Web Developers,Annual 90th percentile wage,      120330
+DE,Computer Programmers,Annual mean wage,       77200
+DE,Computer Programmers,Annual 10th percentile wage,       52360
+DE,Computer Programmers,Annual 25th percentile wage,       58470
+DE,Computer Programmers,Annual median wage,       73810
+DE,Computer Programmers,Annual 75th percentile wage,       94100
+DE,Computer Programmers,Annual 90th percentile wage,      114760
+DE,"Software Developers, Applications",Annual mean wage,      102250
+DE,"Software Developers, Applications",Annual 10th percentile wage,       65090
+DE,"Software Developers, Applications",Annual 25th percentile wage,       78550
+DE,"Software Developers, Applications",Annual median wage,       98870
+DE,"Software Developers, Applications",Annual 75th percentile wage,      123180
+DE,"Software Developers, Applications",Annual 90th percentile wage,      149450
+DE,"Software Developers, Systems Software",Annual mean wage,      122050
+DE,"Software Developers, Systems Software",Annual 10th percentile wage,       83480
+DE,"Software Developers, Systems Software",Annual 25th percentile wage,      104120
+DE,"Software Developers, Systems Software",Annual median wage,      119640
+DE,"Software Developers, Systems Software",Annual 75th percentile wage,      138730
+DE,"Software Developers, Systems Software",Annual 90th percentile wage,      161190
+DE,Web Developers,Annual mean wage,       69280
+DE,Web Developers,Annual 10th percentile wage,       41610
+DE,Web Developers,Annual 25th percentile wage,       47640
+DE,Web Developers,Annual median wage,       67670
+DE,Web Developers,Annual 75th percentile wage,       87180
+DE,Web Developers,Annual 90th percentile wage,      104620
+DC,Computer Programmers,Annual mean wage,      101740
+DC,Computer Programmers,Annual 10th percentile wage,       64270
+DC,Computer Programmers,Annual 25th percentile wage,       79630
+DC,Computer Programmers,Annual median wage,      103010
+DC,Computer Programmers,Annual 75th percentile wage,      124000
+DC,Computer Programmers,Annual 90th percentile wage,      144720
+DC,"Software Developers, Applications",Annual mean wage,      115900
+DC,"Software Developers, Applications",Annual 10th percentile wage,       79500
+DC,"Software Developers, Applications",Annual 25th percentile wage,       97890
+DC,"Software Developers, Applications",Annual median wage,      116680
+DC,"Software Developers, Applications",Annual 75th percentile wage,      134630
+DC,"Software Developers, Applications",Annual 90th percentile wage,      157880
+DC,"Software Developers, Systems Software",Annual mean wage,      111570
+DC,"Software Developers, Systems Software",Annual 10th percentile wage,       63360
+DC,"Software Developers, Systems Software",Annual 25th percentile wage,       82110
+DC,"Software Developers, Systems Software",Annual median wage,      112590
+DC,"Software Developers, Systems Software",Annual 75th percentile wage,      140850
+DC,"Software Developers, Systems Software",Annual 90th percentile wage,      162150
+DC,Web Developers,Annual mean wage,       86660
+DC,Web Developers,Annual 10th percentile wage,       53750
+DC,Web Developers,Annual 25th percentile wage,       66150
+DC,Web Developers,Annual median wage,       84570
+DC,Web Developers,Annual 75th percentile wage,      105300
+DC,Web Developers,Annual 90th percentile wage,      127060
+FL,Computer Programmers,Annual mean wage,       79770
+FL,Computer Programmers,Annual 10th percentile wage,       42280
+FL,Computer Programmers,Annual 25th percentile wage,       54950
+FL,Computer Programmers,Annual median wage,       73800
+FL,Computer Programmers,Annual 75th percentile wage,       96980
+FL,Computer Programmers,Annual 90th percentile wage,      121310
+FL,"Software Developers, Applications",Annual mean wage,       90770
+FL,"Software Developers, Applications",Annual 10th percentile wage,       52590
+FL,"Software Developers, Applications",Annual 25th percentile wage,       66960
+FL,"Software Developers, Applications",Annual median wage,       88030
+FL,"Software Developers, Applications",Annual 75th percentile wage,      111430
+FL,"Software Developers, Applications",Annual 90th percentile wage,      130800
+FL,"Software Developers, Systems Software",Annual mean wage,      101090
+FL,"Software Developers, Systems Software",Annual 10th percentile wage,       57190
+FL,"Software Developers, Systems Software",Annual 25th percentile wage,       74490
+FL,"Software Developers, Systems Software",Annual median wage,       97300
+FL,"Software Developers, Systems Software",Annual 75th percentile wage,      123780
+FL,"Software Developers, Systems Software",Annual 90th percentile wage,      153020
+FL,Web Developers,Annual mean wage,       62290
+FL,Web Developers,Annual 10th percentile wage,       33910
+FL,Web Developers,Annual 25th percentile wage,       43410
+FL,Web Developers,Annual median wage,       56910
+FL,Web Developers,Annual 75th percentile wage,       75610
+FL,Web Developers,Annual 90th percentile wage,       98560
+GA,Computer Programmers,Annual mean wage,       85380
+GA,Computer Programmers,Annual 10th percentile wage,       49520
+GA,Computer Programmers,Annual 25th percentile wage,       61470
+GA,Computer Programmers,Annual median wage,       77740
+GA,Computer Programmers,Annual 75th percentile wage,      103610
+GA,Computer Programmers,Annual 90th percentile wage,      127910
+GA,"Software Developers, Applications",Annual mean wage,      103630
+GA,"Software Developers, Applications",Annual 10th percentile wage,       55740
+GA,"Software Developers, Applications",Annual 25th percentile wage,       74140
+GA,"Software Developers, Applications",Annual median wage,       97780
+GA,"Software Developers, Applications",Annual 75th percentile wage,      123610
+GA,"Software Developers, Applications",Annual 90th percentile wage,      152550
+GA,"Software Developers, Systems Software",Annual mean wage,      101530
+GA,"Software Developers, Systems Software",Annual 10th percentile wage,       66180
+GA,"Software Developers, Systems Software",Annual 25th percentile wage,       82190
+GA,"Software Developers, Systems Software",Annual median wage,      100290
+GA,"Software Developers, Systems Software",Annual 75th percentile wage,      122180
+GA,"Software Developers, Systems Software",Annual 90th percentile wage,      144510
+GA,Web Developers,Annual mean wage,       77950
+GA,Web Developers,Annual 10th percentile wage,       41670
+GA,Web Developers,Annual 25th percentile wage,       55240
+GA,Web Developers,Annual median wage,       75150
+GA,Web Developers,Annual 75th percentile wage,       97840
+GA,Web Developers,Annual 90th percentile wage,      120980
+HI,Computer Programmers,Annual mean wage,       77190
+HI,Computer Programmers,Annual 10th percentile wage,       52200
+HI,Computer Programmers,Annual 25th percentile wage,       57510
+HI,Computer Programmers,Annual median wage,       68860
+HI,Computer Programmers,Annual 75th percentile wage,       91280
+HI,Computer Programmers,Annual 90th percentile wage,      120320
+HI,"Software Developers, Applications",Annual mean wage,       82050
+HI,"Software Developers, Applications",Annual 10th percentile wage,       53780
+HI,"Software Developers, Applications",Annual 25th percentile wage,       63230
+HI,"Software Developers, Applications",Annual median wage,       77660
+HI,"Software Developers, Applications",Annual 75th percentile wage,       99190
+HI,"Software Developers, Applications",Annual 90th percentile wage,      122060
+HI,"Software Developers, Systems Software",Annual mean wage,       94280
+HI,"Software Developers, Systems Software",Annual 10th percentile wage,       66840
+HI,"Software Developers, Systems Software",Annual 25th percentile wage,       79370
+HI,"Software Developers, Systems Software",Annual median wage,       92750
+HI,"Software Developers, Systems Software",Annual 75th percentile wage,      104990
+HI,"Software Developers, Systems Software",Annual 90th percentile wage,      126980
+HI,Web Developers,Annual mean wage,       60810
+HI,Web Developers,Annual 10th percentile wage,       32920
+HI,Web Developers,Annual 25th percentile wage,       46340
+HI,Web Developers,Annual median wage,       57980
+HI,Web Developers,Annual 75th percentile wage,       73580
+HI,Web Developers,Annual 90th percentile wage,       93250
+ID,Computer Programmers,Annual mean wage,       75310
+ID,Computer Programmers,Annual 10th percentile wage,       44050
+ID,Computer Programmers,Annual 25th percentile wage,       55430
+ID,Computer Programmers,Annual median wage,       70410
+ID,Computer Programmers,Annual 75th percentile wage,       86900
+ID,Computer Programmers,Annual 90th percentile wage,      126580
+ID,"Software Developers, Applications",Annual mean wage,       87580
+ID,"Software Developers, Applications",Annual 10th percentile wage,       53440
+ID,"Software Developers, Applications",Annual 25th percentile wage,       66930
+ID,"Software Developers, Applications",Annual median wage,       85680
+ID,"Software Developers, Applications",Annual 75th percentile wage,      106690
+ID,"Software Developers, Applications",Annual 90th percentile wage,      126850
+ID,"Software Developers, Systems Software",Annual mean wage,       89610
+ID,"Software Developers, Systems Software",Annual 10th percentile wage,       35610
+ID,"Software Developers, Systems Software",Annual 25th percentile wage,       43400
+ID,"Software Developers, Systems Software",Annual median wage,       91370
+ID,"Software Developers, Systems Software",Annual 75th percentile wage,      120180
+ID,"Software Developers, Systems Software",Annual 90th percentile wage,      148700
+ID,Web Developers,Annual mean wage,       50660
+ID,Web Developers,Annual 10th percentile wage,       23880
+ID,Web Developers,Annual 25th percentile wage,       33280
+ID,Web Developers,Annual median wage,       46650
+ID,Web Developers,Annual 75th percentile wage,       62340
+ID,Web Developers,Annual 90th percentile wage,       85640
+IL,Computer Programmers,Annual mean wage,       89390
+IL,Computer Programmers,Annual 10th percentile wage,       35260
+IL,Computer Programmers,Annual 25th percentile wage,       56830
+IL,Computer Programmers,Annual median wage,       82020
+IL,Computer Programmers,Annual 75th percentile wage,      112560
+IL,Computer Programmers,Annual 90th percentile wage,      134460
+IL,"Software Developers, Applications",Annual mean wage,       96110
+IL,"Software Developers, Applications",Annual 10th percentile wage,       60020
+IL,"Software Developers, Applications",Annual 25th percentile wage,       74420
+IL,"Software Developers, Applications",Annual median wage,       93510
+IL,"Software Developers, Applications",Annual 75th percentile wage,      116100
+IL,"Software Developers, Applications",Annual 90th percentile wage,      138230
+IL,"Software Developers, Systems Software",Annual mean wage,      106700
+IL,"Software Developers, Systems Software",Annual 10th percentile wage,       65710
+IL,"Software Developers, Systems Software",Annual 25th percentile wage,       82320
+IL,"Software Developers, Systems Software",Annual median wage,      104320
+IL,"Software Developers, Systems Software",Annual 75th percentile wage,      125040
+IL,"Software Developers, Systems Software",Annual 90th percentile wage,      151400
+IL,Web Developers,Annual mean wage,       78160
+IL,Web Developers,Annual 10th percentile wage,       40030
+IL,Web Developers,Annual 25th percentile wage,       54030
+IL,Web Developers,Annual median wage,       72540
+IL,Web Developers,Annual 75th percentile wage,       97800
+IL,Web Developers,Annual 90th percentile wage,      124040
+IN,Computer Programmers,Annual mean wage,       75420
+IN,Computer Programmers,Annual 10th percentile wage,       44410
+IN,Computer Programmers,Annual 25th percentile wage,       56070
+IN,Computer Programmers,Annual median wage,       69810
+IN,Computer Programmers,Annual 75th percentile wage,       93090
+IN,Computer Programmers,Annual 90th percentile wage,      119240
+IN,"Software Developers, Applications",Annual mean wage,       85640
+IN,"Software Developers, Applications",Annual 10th percentile wage,       53730
+IN,"Software Developers, Applications",Annual 25th percentile wage,       65890
+IN,"Software Developers, Applications",Annual median wage,       79810
+IN,"Software Developers, Applications",Annual 75th percentile wage,      102200
+IN,"Software Developers, Applications",Annual 90th percentile wage,      124690
+IN,"Software Developers, Systems Software",Annual mean wage,       86540
+IN,"Software Developers, Systems Software",Annual 10th percentile wage,       53010
+IN,"Software Developers, Systems Software",Annual 25th percentile wage,       64740
+IN,"Software Developers, Systems Software",Annual median wage,       83140
+IN,"Software Developers, Systems Software",Annual 75th percentile wage,      101970
+IN,"Software Developers, Systems Software",Annual 90th percentile wage,      126260
+IN,Web Developers,Annual mean wage,       57630
+IN,Web Developers,Annual 10th percentile wage,       31110
+IN,Web Developers,Annual 25th percentile wage,       39700
+IN,Web Developers,Annual median wage,       52060
+IN,Web Developers,Annual 75th percentile wage,       70730
+IN,Web Developers,Annual 90th percentile wage,       93780
+IA,Computer Programmers,Annual mean wage,       75060
+IA,Computer Programmers,Annual 10th percentile wage,       43740
+IA,Computer Programmers,Annual 25th percentile wage,       57950
+IA,Computer Programmers,Annual median wage,       71690
+IA,Computer Programmers,Annual 75th percentile wage,       83460
+IA,Computer Programmers,Annual 90th percentile wage,      107920
+IA,"Software Developers, Applications",Annual mean wage,       86070
+IA,"Software Developers, Applications",Annual 10th percentile wage,       54840
+IA,"Software Developers, Applications",Annual 25th percentile wage,       69940
+IA,"Software Developers, Applications",Annual median wage,       86830
+IA,"Software Developers, Applications",Annual 75th percentile wage,      102470
+IA,"Software Developers, Applications",Annual 90th percentile wage,      121940
+IA,"Software Developers, Systems Software",Annual mean wage,       88310
+IA,"Software Developers, Systems Software",Annual 10th percentile wage,       53970
+IA,"Software Developers, Systems Software",Annual 25th percentile wage,       70210
+IA,"Software Developers, Systems Software",Annual median wage,       87820
+IA,"Software Developers, Systems Software",Annual 75th percentile wage,      102770
+IA,"Software Developers, Systems Software",Annual 90th percentile wage,      125520
+IA,Web Developers,Annual mean wage,       58120
+IA,Web Developers,Annual 10th percentile wage,       29980
+IA,Web Developers,Annual 25th percentile wage,       35750
+IA,Web Developers,Annual median wage,       50620
+IA,Web Developers,Annual 75th percentile wage,       76290
+IA,Web Developers,Annual 90th percentile wage,      102470
+KS,Computer Programmers,Annual mean wage,       74190
+KS,Computer Programmers,Annual 10th percentile wage,       42910
+KS,Computer Programmers,Annual 25th percentile wage,       54990
+KS,Computer Programmers,Annual median wage,       71070
+KS,Computer Programmers,Annual 75th percentile wage,       91300
+KS,Computer Programmers,Annual 90th percentile wage,      108730
+KS,"Software Developers, Applications",Annual mean wage,       86880
+KS,"Software Developers, Applications",Annual 10th percentile wage,       48360
+KS,"Software Developers, Applications",Annual 25th percentile wage,       62780
+KS,"Software Developers, Applications",Annual median wage,       86130
+KS,"Software Developers, Applications",Annual 75th percentile wage,      112370
+KS,"Software Developers, Applications",Annual 90th percentile wage,      128960
+KS,"Software Developers, Systems Software",Annual mean wage,       98460
+KS,"Software Developers, Systems Software",Annual 10th percentile wage,       62700
+KS,"Software Developers, Systems Software",Annual 25th percentile wage,       76260
+KS,"Software Developers, Systems Software",Annual median wage,       95830
+KS,"Software Developers, Systems Software",Annual 75th percentile wage,      116940
+KS,"Software Developers, Systems Software",Annual 90th percentile wage,      130570
+KS,Web Developers,Annual mean wage,       60820
+KS,Web Developers,Annual 10th percentile wage,       37520
+KS,Web Developers,Annual 25th percentile wage,       44400
+KS,Web Developers,Annual median wage,       53490
+KS,Web Developers,Annual 75th percentile wage,       75060
+KS,Web Developers,Annual 90th percentile wage,       97480
+KY,Computer Programmers,Annual mean wage,       69700
+KY,Computer Programmers,Annual 10th percentile wage,       35280
+KY,Computer Programmers,Annual 25th percentile wage,       52250
+KY,Computer Programmers,Annual median wage,       69370
+KY,Computer Programmers,Annual 75th percentile wage,       87400
+KY,Computer Programmers,Annual 90th percentile wage,      100080
+KY,"Software Developers, Applications",Annual mean wage,       78260
+KY,"Software Developers, Applications",Annual 10th percentile wage,       45020
+KY,"Software Developers, Applications",Annual 25th percentile wage,       59810
+KY,"Software Developers, Applications",Annual median wage,       76290
+KY,"Software Developers, Applications",Annual 75th percentile wage,       96660
+KY,"Software Developers, Applications",Annual 90th percentile wage,      117300
+KY,"Software Developers, Systems Software",Annual mean wage,       86380
+KY,"Software Developers, Systems Software",Annual 10th percentile wage,       55430
+KY,"Software Developers, Systems Software",Annual 25th percentile wage,       68530
+KY,"Software Developers, Systems Software",Annual median wage,       81600
+KY,"Software Developers, Systems Software",Annual 75th percentile wage,      102830
+KY,"Software Developers, Systems Software",Annual 90th percentile wage,      126980
+KY,Web Developers,Annual mean wage,       64780
+KY,Web Developers,Annual 10th percentile wage,       30390
+KY,Web Developers,Annual 25th percentile wage,       41010
+KY,Web Developers,Annual median wage,       60630
+KY,Web Developers,Annual 75th percentile wage,       86140
+KY,Web Developers,Annual 90th percentile wage,      103790
+LA,Computer Programmers,Annual mean wage,       67970
+LA,Computer Programmers,Annual 10th percentile wage,       40630
+LA,Computer Programmers,Annual 25th percentile wage,       49570
+LA,Computer Programmers,Annual median wage,       62730
+LA,Computer Programmers,Annual 75th percentile wage,       85210
+LA,Computer Programmers,Annual 90th percentile wage,      102140
+LA,"Software Developers, Applications",Annual mean wage,       76700
+LA,"Software Developers, Applications",Annual 10th percentile wage,       44090
+LA,"Software Developers, Applications",Annual 25th percentile wage,       52800
+LA,"Software Developers, Applications",Annual median wage,       73620
+LA,"Software Developers, Applications",Annual 75th percentile wage,       95080
+LA,"Software Developers, Applications",Annual 90th percentile wage,      117410
+LA,"Software Developers, Systems Software",Annual mean wage,       75250
+LA,"Software Developers, Systems Software",Annual 10th percentile wage,       47450
+LA,"Software Developers, Systems Software",Annual 25th percentile wage,       57170
+LA,"Software Developers, Systems Software",Annual median wage,       71590
+LA,"Software Developers, Systems Software",Annual 75th percentile wage,       88280
+LA,"Software Developers, Systems Software",Annual 90th percentile wage,      104230
+LA,Web Developers,Annual mean wage,       55200
+LA,Web Developers,Annual 10th percentile wage,       19530
+LA,Web Developers,Annual 25th percentile wage,       47040
+LA,Web Developers,Annual median wage,       56460
+LA,Web Developers,Annual 75th percentile wage,       63360
+LA,Web Developers,Annual 90th percentile wage,       80730
+ME,Computer Programmers,Annual mean wage,       77450
+ME,Computer Programmers,Annual 10th percentile wage,       52600
+ME,Computer Programmers,Annual 25th percentile wage,       62000
+ME,Computer Programmers,Annual median wage,       75990
+ME,Computer Programmers,Annual 75th percentile wage,       90830
+ME,Computer Programmers,Annual 90th percentile wage,      102630
+ME,"Software Developers, Applications",Annual mean wage,       87940
+ME,"Software Developers, Applications",Annual 10th percentile wage,       56600
+ME,"Software Developers, Applications",Annual 25th percentile wage,       68760
+ME,"Software Developers, Applications",Annual median wage,       85690
+ME,"Software Developers, Applications",Annual 75th percentile wage,      101260
+ME,"Software Developers, Applications",Annual 90th percentile wage,      123840
+ME,"Software Developers, Systems Software",Annual mean wage,       91550
+ME,"Software Developers, Systems Software",Annual 10th percentile wage,       57480
+ME,"Software Developers, Systems Software",Annual 25th percentile wage,       71090
+ME,"Software Developers, Systems Software",Annual median wage,       93600
+ME,"Software Developers, Systems Software",Annual 75th percentile wage,      113570
+ME,"Software Developers, Systems Software",Annual 90th percentile wage,      126010
+ME,Web Developers,Annual mean wage,       62390
+ME,Web Developers,Annual 10th percentile wage,       41020
+ME,Web Developers,Annual 25th percentile wage,       46460
+ME,Web Developers,Annual median wage,       58150
+ME,Web Developers,Annual 75th percentile wage,       78010
+ME,Web Developers,Annual 90th percentile wage,       95060
+MD,Computer Programmers,Annual mean wage,       89090
+MD,Computer Programmers,Annual 10th percentile wage,       53150
+MD,Computer Programmers,Annual 25th percentile wage,       67980
+MD,Computer Programmers,Annual median wage,       82320
+MD,Computer Programmers,Annual 75th percentile wage,      111140
+MD,Computer Programmers,Annual 90th percentile wage,      140290
+MD,"Software Developers, Applications",Annual mean wage,      112190
+MD,"Software Developers, Applications",Annual 10th percentile wage,       53950
+MD,"Software Developers, Applications",Annual 25th percentile wage,       75210
+MD,"Software Developers, Applications",Annual median wage,      103290
+MD,"Software Developers, Applications",Annual 75th percentile wage,      137250
+MD,"Software Developers, Applications",Annual 90th percentile wage,      178460
+MD,"Software Developers, Systems Software",Annual mean wage,      118330
+MD,"Software Developers, Systems Software",Annual 10th percentile wage,       59640
+MD,"Software Developers, Systems Software",Annual 25th percentile wage,       82820
+MD,"Software Developers, Systems Software",Annual median wage,      114660
+MD,"Software Developers, Systems Software",Annual 75th percentile wage,      150300
+MD,"Software Developers, Systems Software",Annual 90th percentile wage,      181840
+MD,Web Developers,Annual mean wage,       73680
+MD,Web Developers,Annual 10th percentile wage,       42730
+MD,Web Developers,Annual 25th percentile wage,       54110
+MD,Web Developers,Annual median wage,       69830
+MD,Web Developers,Annual 75th percentile wage,       89100
+MD,Web Developers,Annual 90th percentile wage,      116500
+MA,Computer Programmers,Annual mean wage,       94340
+MA,Computer Programmers,Annual 10th percentile wage,       56960
+MA,Computer Programmers,Annual 25th percentile wage,       70580
+MA,Computer Programmers,Annual median wage,       89920
+MA,Computer Programmers,Annual 75th percentile wage,      116170
+MA,Computer Programmers,Annual 90th percentile wage,      143230
+MA,"Software Developers, Applications",Annual mean wage,      108680
+MA,"Software Developers, Applications",Annual 10th percentile wage,       62350
+MA,"Software Developers, Applications",Annual 25th percentile wage,       80260
+MA,"Software Developers, Applications",Annual median wage,      103700
+MA,"Software Developers, Applications",Annual 75th percentile wage,      129300
+MA,"Software Developers, Applications",Annual 90th percentile wage,      159340
+MA,"Software Developers, Systems Software",Annual mean wage,      114900
+MA,"Software Developers, Systems Software",Annual 10th percentile wage,       72620
+MA,"Software Developers, Systems Software",Annual 25th percentile wage,       90430
+MA,"Software Developers, Systems Software",Annual median wage,      112880
+MA,"Software Developers, Systems Software",Annual 75th percentile wage,      139010
+MA,"Software Developers, Systems Software",Annual 90th percentile wage,      162750
+MA,Web Developers,Annual mean wage,       81770
+MA,Web Developers,Annual 10th percentile wage,       44790
+MA,Web Developers,Annual 25th percentile wage,       60010
+MA,Web Developers,Annual median wage,       80640
+MA,Web Developers,Annual 75th percentile wage,       99460
+MA,Web Developers,Annual 90th percentile wage,      123320
+MI,Computer Programmers,Annual mean wage,       73680
+MI,Computer Programmers,Annual 10th percentile wage,       43750
+MI,Computer Programmers,Annual 25th percentile wage,       56470
+MI,Computer Programmers,Annual median wage,       70950
+MI,Computer Programmers,Annual 75th percentile wage,       87770
+MI,Computer Programmers,Annual 90th percentile wage,      102430
+MI,"Software Developers, Applications",Annual mean wage,       91430
+MI,"Software Developers, Applications",Annual 10th percentile wage,       53760
+MI,"Software Developers, Applications",Annual 25th percentile wage,       69380
+MI,"Software Developers, Applications",Annual median wage,       87880
+MI,"Software Developers, Applications",Annual 75th percentile wage,      109770
+MI,"Software Developers, Applications",Annual 90th percentile wage,      129860
+MI,"Software Developers, Systems Software",Annual mean wage,       89630
+MI,"Software Developers, Systems Software",Annual 10th percentile wage,       49980
+MI,"Software Developers, Systems Software",Annual 25th percentile wage,       68680
+MI,"Software Developers, Systems Software",Annual median wage,       87810
+MI,"Software Developers, Systems Software",Annual 75th percentile wage,      107500
+MI,"Software Developers, Systems Software",Annual 90th percentile wage,      129460
+MI,Web Developers,Annual mean wage,       64540
+MI,Web Developers,Annual 10th percentile wage,       35600
+MI,Web Developers,Annual 25th percentile wage,       46750
+MI,Web Developers,Annual median wage,       60580
+MI,Web Developers,Annual 75th percentile wage,       81150
+MI,Web Developers,Annual 90th percentile wage,       98290
+MN,Computer Programmers,Annual mean wage,       89440
+MN,Computer Programmers,Annual 10th percentile wage,       44870
+MN,Computer Programmers,Annual 25th percentile wage,       59950
+MN,Computer Programmers,Annual median wage,       80720
+MN,Computer Programmers,Annual 75th percentile wage,      102220
+MN,Computer Programmers,Annual 90th percentile wage,      129730
+MN,"Software Developers, Applications",Annual mean wage,       93280
+MN,"Software Developers, Applications",Annual 10th percentile wage,       55390
+MN,"Software Developers, Applications",Annual 25th percentile wage,       70140
+MN,"Software Developers, Applications",Annual median wage,       90200
+MN,"Software Developers, Applications",Annual 75th percentile wage,      114900
+MN,"Software Developers, Applications",Annual 90th percentile wage,      134750
+MN,"Software Developers, Systems Software",Annual mean wage,      111340
+MN,"Software Developers, Systems Software",Annual 10th percentile wage,       69260
+MN,"Software Developers, Systems Software",Annual 25th percentile wage,       86750
+MN,"Software Developers, Systems Software",Annual median wage,      107710
+MN,"Software Developers, Systems Software",Annual 75th percentile wage,      131320
+MN,"Software Developers, Systems Software",Annual 90th percentile wage,      161380
+MN,Web Developers,Annual mean wage,       75970
+MN,Web Developers,Annual 10th percentile wage,       41290
+MN,Web Developers,Annual 25th percentile wage,       53270
+MN,Web Developers,Annual median wage,       73050
+MN,Web Developers,Annual 75th percentile wage,       97110
+MN,Web Developers,Annual 90th percentile wage,      119190
+MS,Computer Programmers,Annual mean wage,       73860
+MS,Computer Programmers,Annual 10th percentile wage,       44970
+MS,Computer Programmers,Annual 25th percentile wage,       56280
+MS,Computer Programmers,Annual median wage,       70370
+MS,Computer Programmers,Annual 75th percentile wage,       84540
+MS,Computer Programmers,Annual 90th percentile wage,       99790
+MS,"Software Developers, Applications",Annual mean wage,       94460
+MS,"Software Developers, Applications",Annual 10th percentile wage,       53780
+MS,"Software Developers, Applications",Annual 25th percentile wage,       65820
+MS,"Software Developers, Applications",Annual median wage,       87030
+MS,"Software Developers, Applications",Annual 75th percentile wage,      110730
+MS,"Software Developers, Applications",Annual 90th percentile wage,      131820
+MS,"Software Developers, Systems Software",Annual mean wage,       85940
+MS,"Software Developers, Systems Software",Annual 10th percentile wage,       46650
+MS,"Software Developers, Systems Software",Annual 25th percentile wage,       56310
+MS,"Software Developers, Systems Software",Annual median wage,       74780
+MS,"Software Developers, Systems Software",Annual 75th percentile wage,       97890
+MS,"Software Developers, Systems Software",Annual 90th percentile wage,      139570
+MS,Web Developers,Annual mean wage,       61810
+MS,Web Developers,Annual 10th percentile wage,       33840
+MS,Web Developers,Annual 25th percentile wage,       45820
+MS,Web Developers,Annual median wage,       59150
+MS,Web Developers,Annual 75th percentile wage,       76070
+MS,Web Developers,Annual 90th percentile wage,       94960
+MO,Computer Programmers,Annual mean wage,       80030
+MO,Computer Programmers,Annual 10th percentile wage,       45620
+MO,Computer Programmers,Annual 25th percentile wage,       59760
+MO,Computer Programmers,Annual median wage,       78890
+MO,Computer Programmers,Annual 75th percentile wage,       98770
+MO,Computer Programmers,Annual 90th percentile wage,      118710
+MO,"Software Developers, Applications",Annual mean wage,       96100
+MO,"Software Developers, Applications",Annual 10th percentile wage,       60490
+MO,"Software Developers, Applications",Annual 25th percentile wage,       75590
+MO,"Software Developers, Applications",Annual median wage,       94760
+MO,"Software Developers, Applications",Annual 75th percentile wage,      116780
+MO,"Software Developers, Applications",Annual 90th percentile wage,      134060
+MO,"Software Developers, Systems Software",Annual mean wage,       96200
+MO,"Software Developers, Systems Software",Annual 10th percentile wage,       54830
+MO,"Software Developers, Systems Software",Annual 25th percentile wage,       74690
+MO,"Software Developers, Systems Software",Annual median wage,       96160
+MO,"Software Developers, Systems Software",Annual 75th percentile wage,      119280
+MO,"Software Developers, Systems Software",Annual 90th percentile wage,      140900
+MO,Web Developers,Annual mean wage,       59210
+MO,Web Developers,Annual 10th percentile wage,       23730
+MO,Web Developers,Annual 25th percentile wage,       40600
+MO,Web Developers,Annual median wage,       55530
+MO,Web Developers,Annual 75th percentile wage,       73990
+MO,Web Developers,Annual 90th percentile wage,       96580
+MT,Computer Programmers,Annual mean wage,       92150
+MT,Computer Programmers,Annual 10th percentile wage,       45300
+MT,Computer Programmers,Annual 25th percentile wage,       54350
+MT,Computer Programmers,Annual median wage,       67540
+MT,Computer Programmers,Annual 75th percentile wage,       85610
+MT,"Software Developers, Applications",Annual mean wage,       73960
+MT,"Software Developers, Applications",Annual 10th percentile wage,       30890
+MT,"Software Developers, Applications",Annual 25th percentile wage,       60220
+MT,"Software Developers, Applications",Annual median wage,       74600
+MT,"Software Developers, Applications",Annual 75th percentile wage,       92000
+MT,"Software Developers, Applications",Annual 90th percentile wage,      109850
+MT,"Software Developers, Systems Software",Annual mean wage,       79280
+MT,"Software Developers, Systems Software",Annual 10th percentile wage,       45670
+MT,"Software Developers, Systems Software",Annual 25th percentile wage,       57960
+MT,"Software Developers, Systems Software",Annual median wage,       71510
+MT,"Software Developers, Systems Software",Annual 75th percentile wage,       83580
+MT,"Software Developers, Systems Software",Annual 90th percentile wage,      104960
+MT,Web Developers,Annual mean wage,       46510
+MT,Web Developers,Annual 10th percentile wage,       19600
+MT,Web Developers,Annual 25th percentile wage,       33500
+MT,Web Developers,Annual median wage,       45850
+MT,Web Developers,Annual 75th percentile wage,       59700
+MT,Web Developers,Annual 90th percentile wage,       73640
+NE,Computer Programmers,Annual mean wage,       77670
+NE,Computer Programmers,Annual 10th percentile wage,       45160
+NE,Computer Programmers,Annual 25th percentile wage,       58070
+NE,Computer Programmers,Annual median wage,       75040
+NE,Computer Programmers,Annual 75th percentile wage,       96550
+NE,Computer Programmers,Annual 90th percentile wage,      117450
+NE,"Software Developers, Applications",Annual mean wage,       86870
+NE,"Software Developers, Applications",Annual 10th percentile wage,       56750
+NE,"Software Developers, Applications",Annual 25th percentile wage,       69400
+NE,"Software Developers, Applications",Annual median wage,       85510
+NE,"Software Developers, Applications",Annual 75th percentile wage,      103440
+NE,"Software Developers, Applications",Annual 90th percentile wage,      122900
+NE,"Software Developers, Systems Software",Annual mean wage,       90760
+NE,"Software Developers, Systems Software",Annual 10th percentile wage,       57110
+NE,"Software Developers, Systems Software",Annual 25th percentile wage,       72620
+NE,"Software Developers, Systems Software",Annual median wage,       91110
+NE,"Software Developers, Systems Software",Annual 75th percentile wage,      109350
+NE,"Software Developers, Systems Software",Annual 90th percentile wage,      126580
+NE,Web Developers,Annual mean wage,       58510
+NE,Web Developers,Annual 10th percentile wage,       33980
+NE,Web Developers,Annual 25th percentile wage,       42590
+NE,Web Developers,Annual median wage,       54920
+NE,Web Developers,Annual 75th percentile wage,       74790
+NE,Web Developers,Annual 90th percentile wage,       91760
+NV,Computer Programmers,Annual mean wage,       77080
+NV,Computer Programmers,Annual 10th percentile wage,       42980
+NV,Computer Programmers,Annual 25th percentile wage,       50830
+NV,Computer Programmers,Annual median wage,       77300
+NV,Computer Programmers,Annual 75th percentile wage,       98160
+NV,Computer Programmers,Annual 90th percentile wage,      117420
+NV,"Software Developers, Applications",Annual mean wage,      101010
+NV,"Software Developers, Applications",Annual 10th percentile wage,       44870
+NV,"Software Developers, Applications",Annual 25th percentile wage,       70730
+NV,"Software Developers, Applications",Annual median wage,      101040
+NV,"Software Developers, Applications",Annual 75th percentile wage,      123490
+NV,"Software Developers, Applications",Annual 90th percentile wage,      175310
+NV,"Software Developers, Systems Software",Annual mean wage,       93490
+NV,"Software Developers, Systems Software",Annual 10th percentile wage,       46400
+NV,"Software Developers, Systems Software",Annual 25th percentile wage,       68170
+NV,"Software Developers, Systems Software",Annual median wage,       90980
+NV,"Software Developers, Systems Software",Annual 75th percentile wage,      118290
+NV,"Software Developers, Systems Software",Annual 90th percentile wage,      134550
+NV,Web Developers,Annual mean wage,       59580
+NV,Web Developers,Annual 10th percentile wage,       31640
+NV,Web Developers,Annual 25th percentile wage,       38330
+NV,Web Developers,Annual median wage,       53980
+NV,Web Developers,Annual 75th percentile wage,       71680
+NV,Web Developers,Annual 90th percentile wage,       93350
+NH,Computer Programmers,Annual mean wage,       73700
+NH,Computer Programmers,Annual 10th percentile wage,       42360
+NH,Computer Programmers,Annual 25th percentile wage,       54180
+NH,Computer Programmers,Annual median wage,       66880
+NH,Computer Programmers,Annual 75th percentile wage,       85190
+NH,Computer Programmers,Annual 90th percentile wage,      102870
+NH,"Software Developers, Applications",Annual mean wage,      105210
+NH,"Software Developers, Applications",Annual 10th percentile wage,       62320
+NH,"Software Developers, Applications",Annual 25th percentile wage,       77520
+NH,"Software Developers, Applications",Annual median wage,      101460
+NH,"Software Developers, Applications",Annual 75th percentile wage,      125870
+NH,"Software Developers, Applications",Annual 90th percentile wage,      152760
+NH,"Software Developers, Systems Software",Annual mean wage,      122810
+NH,"Software Developers, Systems Software",Annual 10th percentile wage,       76010
+NH,"Software Developers, Systems Software",Annual 25th percentile wage,       95320
+NH,"Software Developers, Systems Software",Annual median wage,      122630
+NH,"Software Developers, Systems Software",Annual 75th percentile wage,      150570
+NH,"Software Developers, Systems Software",Annual 90th percentile wage,      169530
+NH,Web Developers,Annual mean wage,       65260
+NH,Web Developers,Annual 10th percentile wage,       37430
+NH,Web Developers,Annual 25th percentile wage,       48690
+NH,Web Developers,Annual median wage,       63030
+NH,Web Developers,Annual 75th percentile wage,       78300
+NH,Web Developers,Annual 90th percentile wage,       98180
+NJ,Computer Programmers,Annual mean wage,       92320
+NJ,Computer Programmers,Annual 10th percentile wage,       48970
+NJ,Computer Programmers,Annual 25th percentile wage,       61890
+NJ,Computer Programmers,Annual median wage,       81380
+NJ,Computer Programmers,Annual 75th percentile wage,      112510
+NJ,Computer Programmers,Annual 90th percentile wage,      145970
+NJ,"Software Developers, Applications",Annual mean wage,      107040
+NJ,"Software Developers, Applications",Annual 10th percentile wage,       65740
+NJ,"Software Developers, Applications",Annual 25th percentile wage,       78180
+NJ,"Software Developers, Applications",Annual median wage,      100850
+NJ,"Software Developers, Applications",Annual 75th percentile wage,      130500
+NJ,"Software Developers, Applications",Annual 90th percentile wage,      160420
+NJ,"Software Developers, Systems Software",Annual mean wage,      117080
+NJ,"Software Developers, Systems Software",Annual 10th percentile wage,       71620
+NJ,"Software Developers, Systems Software",Annual 25th percentile wage,       89220
+NJ,"Software Developers, Systems Software",Annual median wage,      114850
+NJ,"Software Developers, Systems Software",Annual 75th percentile wage,      143760
+NJ,"Software Developers, Systems Software",Annual 90th percentile wage,      167630
+NJ,Web Developers,Annual mean wage,       77160
+NJ,Web Developers,Annual 10th percentile wage,       43390
+NJ,Web Developers,Annual 25th percentile wage,       55260
+NJ,Web Developers,Annual median wage,       72130
+NJ,Web Developers,Annual 75th percentile wage,       94130
+NJ,Web Developers,Annual 90th percentile wage,      119230
+NM,Computer Programmers,Annual mean wage,       79850
+NM,Computer Programmers,Annual 10th percentile wage,       49710
+NM,Computer Programmers,Annual 25th percentile wage,       62130
+NM,Computer Programmers,Annual median wage,       76140
+NM,Computer Programmers,Annual 75th percentile wage,       96500
+NM,Computer Programmers,Annual 90th percentile wage,      118540
+NM,"Software Developers, Applications",Annual mean wage,       79230
+NM,"Software Developers, Applications",Annual 10th percentile wage,       23900
+NM,"Software Developers, Applications",Annual 25th percentile wage,       56840
+NM,"Software Developers, Applications",Annual median wage,       76600
+NM,"Software Developers, Applications",Annual 75th percentile wage,      100240
+NM,"Software Developers, Applications",Annual 90th percentile wage,      126430
+NM,"Software Developers, Systems Software",Annual mean wage,       98580
+NM,"Software Developers, Systems Software",Annual 10th percentile wage,       56460
+NM,"Software Developers, Systems Software",Annual 25th percentile wage,       69860
+NM,"Software Developers, Systems Software",Annual median wage,       97910
+NM,"Software Developers, Systems Software",Annual 75th percentile wage,      122480
+NM,"Software Developers, Systems Software",Annual 90th percentile wage,      148120
+NM,Web Developers,Annual mean wage,       56930
+NM,Web Developers,Annual 10th percentile wage,       26420
+NM,Web Developers,Annual 25th percentile wage,       43330
+NM,Web Developers,Annual median wage,       54780
+NM,Web Developers,Annual 75th percentile wage,       71510
+NM,Web Developers,Annual 90th percentile wage,       87290
+NY,Computer Programmers,Annual mean wage,       89260
+NY,Computer Programmers,Annual 10th percentile wage,       45900
+NY,Computer Programmers,Annual 25th percentile wage,       64950
+NY,Computer Programmers,Annual median wage,       82210
+NY,Computer Programmers,Annual 75th percentile wage,      106690
+NY,Computer Programmers,Annual 90th percentile wage,      139620
+NY,"Software Developers, Applications",Annual mean wage,      115530
+NY,"Software Developers, Applications",Annual 10th percentile wage,       64260
+NY,"Software Developers, Applications",Annual 25th percentile wage,       83700
+NY,"Software Developers, Applications",Annual median wage,      110050
+NY,"Software Developers, Applications",Annual 75th percentile wage,      142800
+NY,"Software Developers, Applications",Annual 90th percentile wage,      170900
+NY,"Software Developers, Systems Software",Annual mean wage,      115490
+NY,"Software Developers, Systems Software",Annual 10th percentile wage,       63490
+NY,"Software Developers, Systems Software",Annual 25th percentile wage,       85790
+NY,"Software Developers, Systems Software",Annual median wage,      111740
+NY,"Software Developers, Systems Software",Annual 75th percentile wage,      145030
+NY,"Software Developers, Systems Software",Annual 90th percentile wage,      170130
+NY,Web Developers,Annual mean wage,       82360
+NY,Web Developers,Annual 10th percentile wage,       41520
+NY,Web Developers,Annual 25th percentile wage,       53010
+NY,Web Developers,Annual median wage,       74450
+NY,Web Developers,Annual 75th percentile wage,      103870
+NY,Web Developers,Annual 90th percentile wage,      140080
+NC,Computer Programmers,Annual mean wage,       90250
+NC,Computer Programmers,Annual 10th percentile wage,       51030
+NC,Computer Programmers,Annual 25th percentile wage,       66400
+NC,Computer Programmers,Annual median wage,       87900
+NC,Computer Programmers,Annual 75th percentile wage,      112520
+NC,Computer Programmers,Annual 90th percentile wage,      133690
+NC,"Software Developers, Applications",Annual mean wage,      101000
+NC,"Software Developers, Applications",Annual 10th percentile wage,       61710
+NC,"Software Developers, Applications",Annual 25th percentile wage,       77420
+NC,"Software Developers, Applications",Annual median wage,       97610
+NC,"Software Developers, Applications",Annual 75th percentile wage,      122380
+NC,"Software Developers, Applications",Annual 90th percentile wage,      147980
+NC,"Software Developers, Systems Software",Annual mean wage,      106940
+NC,"Software Developers, Systems Software",Annual 10th percentile wage,       71470
+NC,"Software Developers, Systems Software",Annual 25th percentile wage,       88090
+NC,"Software Developers, Systems Software",Annual median wage,      107620
+NC,"Software Developers, Systems Software",Annual 75th percentile wage,      126030
+NC,"Software Developers, Systems Software",Annual 90th percentile wage,      147100
+NC,Web Developers,Annual mean wage,       73060
+NC,Web Developers,Annual 10th percentile wage,       40290
+NC,Web Developers,Annual 25th percentile wage,       49750
+NC,Web Developers,Annual median wage,       69450
+NC,Web Developers,Annual 75th percentile wage,       94310
+NC,Web Developers,Annual 90th percentile wage,      115970
+ND,Computer Programmers,Annual mean wage,       67080
+ND,Computer Programmers,Annual 10th percentile wage,       42470
+ND,Computer Programmers,Annual 25th percentile wage,       48890
+ND,Computer Programmers,Annual median wage,       61100
+ND,Computer Programmers,Annual 75th percentile wage,       78820
+ND,Computer Programmers,Annual 90th percentile wage,      100120
+ND,"Software Developers, Applications",Annual mean wage,       74310
+ND,"Software Developers, Applications",Annual 10th percentile wage,       53460
+ND,"Software Developers, Applications",Annual 25th percentile wage,       62610
+ND,"Software Developers, Applications",Annual median wage,       72900
+ND,"Software Developers, Applications",Annual 75th percentile wage,       85090
+ND,"Software Developers, Applications",Annual 90th percentile wage,      100490
+ND,"Software Developers, Systems Software",Annual mean wage,       67500
+ND,"Software Developers, Systems Software",Annual 10th percentile wage,       49240
+ND,"Software Developers, Systems Software",Annual 25th percentile wage,       54750
+ND,"Software Developers, Systems Software",Annual median wage,       61660
+ND,"Software Developers, Systems Software",Annual 75th percentile wage,       77600
+ND,"Software Developers, Systems Software",Annual 90th percentile wage,       96650
+ND,Web Developers,Annual mean wage,       61090
+ND,Web Developers,Annual 10th percentile wage,       37670
+ND,Web Developers,Annual 25th percentile wage,       46510
+ND,Web Developers,Annual median wage,       59890
+ND,Web Developers,Annual 75th percentile wage,       73480
+ND,Web Developers,Annual 90th percentile wage,       89810
+OH,Computer Programmers,Annual mean wage,       70430
+OH,Computer Programmers,Annual 10th percentile wage,       38570
+OH,Computer Programmers,Annual 25th percentile wage,       50760
+OH,Computer Programmers,Annual median wage,       69080
+OH,Computer Programmers,Annual 75th percentile wage,       87530
+OH,Computer Programmers,Annual 90th percentile wage,      105090
+OH,"Software Developers, Applications",Annual mean wage,       93250
+OH,"Software Developers, Applications",Annual 10th percentile wage,       53070
+OH,"Software Developers, Applications",Annual 25th percentile wage,       68840
+OH,"Software Developers, Applications",Annual median wage,       89200
+OH,"Software Developers, Applications",Annual 75th percentile wage,      110620
+OH,"Software Developers, Applications",Annual 90th percentile wage,      130660
+OH,"Software Developers, Systems Software",Annual mean wage,       96450
+OH,"Software Developers, Systems Software",Annual 10th percentile wage,       64540
+OH,"Software Developers, Systems Software",Annual 25th percentile wage,       77780
+OH,"Software Developers, Systems Software",Annual median wage,       94930
+OH,"Software Developers, Systems Software",Annual 75th percentile wage,      115410
+OH,"Software Developers, Systems Software",Annual 90th percentile wage,      132290
+OH,Web Developers,Annual mean wage,       60960
+OH,Web Developers,Annual 10th percentile wage,       31740
+OH,Web Developers,Annual 25th percentile wage,       42440
+OH,Web Developers,Annual median wage,       56790
+OH,Web Developers,Annual 75th percentile wage,       76950
+OH,Web Developers,Annual 90th percentile wage,       97380
+OK,Computer Programmers,Annual mean wage,       79200
+OK,Computer Programmers,Annual 10th percentile wage,       42160
+OK,Computer Programmers,Annual 25th percentile wage,       58600
+OK,Computer Programmers,Annual median wage,       78370
+OK,Computer Programmers,Annual 75th percentile wage,       96880
+OK,Computer Programmers,Annual 90th percentile wage,      114580
+OK,"Software Developers, Applications",Annual mean wage,       87960
+OK,"Software Developers, Applications",Annual 10th percentile wage,       52060
+OK,"Software Developers, Applications",Annual 25th percentile wage,       63510
+OK,"Software Developers, Applications",Annual median wage,       83910
+OK,"Software Developers, Applications",Annual 75th percentile wage,      104470
+OK,"Software Developers, Applications",Annual 90th percentile wage,      133520
+OK,"Software Developers, Systems Software",Annual mean wage,       79070
+OK,"Software Developers, Systems Software",Annual 10th percentile wage,       46400
+OK,"Software Developers, Systems Software",Annual 25th percentile wage,       57480
+OK,"Software Developers, Systems Software",Annual median wage,       74750
+OK,"Software Developers, Systems Software",Annual 75th percentile wage,       97880
+OK,"Software Developers, Systems Software",Annual 90th percentile wage,      122790
+OK,Web Developers,Annual mean wage,       57950
+OK,Web Developers,Annual 10th percentile wage,       31960
+OK,Web Developers,Annual 25th percentile wage,       42590
+OK,Web Developers,Annual median wage,       55950
+OK,Web Developers,Annual 75th percentile wage,       71130
+OK,Web Developers,Annual 90th percentile wage,       87850
+OR,Computer Programmers,Annual mean wage,       80900
+OR,Computer Programmers,Annual 10th percentile wage,       44570
+OR,Computer Programmers,Annual 25th percentile wage,       61740
+OR,Computer Programmers,Annual median wage,       83420
+OR,Computer Programmers,Annual 75th percentile wage,       98080
+OR,Computer Programmers,Annual 90th percentile wage,      114510
+OR,"Software Developers, Applications",Annual mean wage,      102820
+OR,"Software Developers, Applications",Annual 10th percentile wage,       60470
+OR,"Software Developers, Applications",Annual 25th percentile wage,       80920
+OR,"Software Developers, Applications",Annual median wage,      101510
+OR,"Software Developers, Applications",Annual 75th percentile wage,      124070
+OR,"Software Developers, Applications",Annual 90th percentile wage,      149370
+OR,"Software Developers, Systems Software",Annual mean wage,      107770
+OR,"Software Developers, Systems Software",Annual 10th percentile wage,       68490
+OR,"Software Developers, Systems Software",Annual 25th percentile wage,       86410
+OR,"Software Developers, Systems Software",Annual median wage,      106640
+OR,"Software Developers, Systems Software",Annual 75th percentile wage,      130760
+OR,"Software Developers, Systems Software",Annual 90th percentile wage,      155660
+OR,Web Developers,Annual mean wage,       68960
+OR,Web Developers,Annual 10th percentile wage,       36530
+OR,Web Developers,Annual 25th percentile wage,       45860
+OR,Web Developers,Annual median wage,       62100
+OR,Web Developers,Annual 75th percentile wage,       87060
+OR,Web Developers,Annual 90th percentile wage,      109550
+PA,Computer Programmers,Annual mean wage,       80830
+PA,Computer Programmers,Annual 10th percentile wage,       48370
+PA,Computer Programmers,Annual 25th percentile wage,       61940
+PA,Computer Programmers,Annual median wage,       79000
+PA,Computer Programmers,Annual 75th percentile wage,       98110
+PA,Computer Programmers,Annual 90th percentile wage,      118570
+PA,"Software Developers, Applications",Annual mean wage,       95660
+PA,"Software Developers, Applications",Annual 10th percentile wage,       57800
+PA,"Software Developers, Applications",Annual 25th percentile wage,       72260
+PA,"Software Developers, Applications",Annual median wage,       92770
+PA,"Software Developers, Applications",Annual 75th percentile wage,      116050
+PA,"Software Developers, Applications",Annual 90th percentile wage,      139760
+PA,"Software Developers, Systems Software",Annual mean wage,      102080
+PA,"Software Developers, Systems Software",Annual 10th percentile wage,       66730
+PA,"Software Developers, Systems Software",Annual 25th percentile wage,       79800
+PA,"Software Developers, Systems Software",Annual median wage,       97970
+PA,"Software Developers, Systems Software",Annual 75th percentile wage,      123260
+PA,"Software Developers, Systems Software",Annual 90th percentile wage,      149730
+PA,Web Developers,Annual mean wage,       69600
+PA,Web Developers,Annual 10th percentile wage,       37730
+PA,Web Developers,Annual 25th percentile wage,       50640
+PA,Web Developers,Annual median wage,       64700
+PA,Web Developers,Annual 75th percentile wage,       84020
+PA,Web Developers,Annual 90th percentile wage,      110560
+RI,Computer Programmers,Annual mean wage,       75300
+RI,Computer Programmers,Annual 10th percentile wage,       42340
+RI,Computer Programmers,Annual 25th percentile wage,       56430
+RI,Computer Programmers,Annual median wage,       75310
+RI,Computer Programmers,Annual 75th percentile wage,       94190
+RI,Computer Programmers,Annual 90th percentile wage,      112610
+RI,"Software Developers, Applications",Annual mean wage,       92620
+RI,"Software Developers, Applications",Annual 10th percentile wage,       56950
+RI,"Software Developers, Applications",Annual 25th percentile wage,       70960
+RI,"Software Developers, Applications",Annual median wage,       91250
+RI,"Software Developers, Applications",Annual 75th percentile wage,      113630
+RI,"Software Developers, Applications",Annual 90th percentile wage,      127300
+RI,"Software Developers, Systems Software",Annual mean wage,      110170
+RI,"Software Developers, Systems Software",Annual 10th percentile wage,       71020
+RI,"Software Developers, Systems Software",Annual 25th percentile wage,       86360
+RI,"Software Developers, Systems Software",Annual median wage,      107150
+RI,"Software Developers, Systems Software",Annual 75th percentile wage,      127740
+RI,"Software Developers, Systems Software",Annual 90th percentile wage,      162330
+RI,Web Developers,Annual mean wage,       75130
+RI,Web Developers,Annual 10th percentile wage,       45040
+RI,Web Developers,Annual 25th percentile wage,       54030
+RI,Web Developers,Annual median wage,       66760
+RI,Web Developers,Annual 75th percentile wage,       92230
+RI,Web Developers,Annual 90th percentile wage,      110090
+SC,Computer Programmers,Annual mean wage,       81380
+SC,Computer Programmers,Annual 10th percentile wage,       45610
+SC,Computer Programmers,Annual 25th percentile wage,       57790
+SC,Computer Programmers,Annual median wage,       73940
+SC,Computer Programmers,Annual 75th percentile wage,       96080
+SC,Computer Programmers,Annual 90th percentile wage,      120070
+SC,"Software Developers, Applications",Annual mean wage,       91200
+SC,"Software Developers, Applications",Annual 10th percentile wage,       53510
+SC,"Software Developers, Applications",Annual 25th percentile wage,       68790
+SC,"Software Developers, Applications",Annual median wage,       87120
+SC,"Software Developers, Applications",Annual 75th percentile wage,      109150
+SC,"Software Developers, Applications",Annual 90th percentile wage,      131620
+SC,"Software Developers, Systems Software",Annual mean wage,       80780
+SC,"Software Developers, Systems Software",Annual 10th percentile wage,       48200
+SC,"Software Developers, Systems Software",Annual 25th percentile wage,       62420
+SC,"Software Developers, Systems Software",Annual median wage,       79140
+SC,"Software Developers, Systems Software",Annual 75th percentile wage,       98070
+SC,"Software Developers, Systems Software",Annual 90th percentile wage,      119050
+SC,Web Developers,Annual mean wage,       73200
+SC,Web Developers,Annual 10th percentile wage,       38290
+SC,Web Developers,Annual 25th percentile wage,       50170
+SC,Web Developers,Annual median wage,       69350
+SC,Web Developers,Annual 75th percentile wage,       93160
+SC,Web Developers,Annual 90th percentile wage,      118810
+SD,Computer Programmers,Annual mean wage,       54950
+SD,Computer Programmers,Annual 10th percentile wage,       38890
+SD,Computer Programmers,Annual 25th percentile wage,       44790
+SD,Computer Programmers,Annual median wage,       53320
+SD,Computer Programmers,Annual 75th percentile wage,       63450
+SD,Computer Programmers,Annual 90th percentile wage,       75880
+SD,"Software Developers, Applications",Annual mean wage,       76050
+SD,"Software Developers, Applications",Annual 10th percentile wage,       52380
+SD,"Software Developers, Applications",Annual 25th percentile wage,       61070
+SD,"Software Developers, Applications",Annual median wage,       74030
+SD,"Software Developers, Applications",Annual 75th percentile wage,       90170
+SD,"Software Developers, Applications",Annual 90th percentile wage,      103720
+SD,"Software Developers, Systems Software",Annual mean wage,       89370
+SD,"Software Developers, Systems Software",Annual 10th percentile wage,       57080
+SD,"Software Developers, Systems Software",Annual 25th percentile wage,       66890
+SD,"Software Developers, Systems Software",Annual median wage,       84780
+SD,"Software Developers, Systems Software",Annual 75th percentile wage,      102910
+SD,"Software Developers, Systems Software",Annual 90th percentile wage,      127350
+SD,Web Developers,Annual mean wage,       55720
+SD,Web Developers,Annual 10th percentile wage,       36920
+SD,Web Developers,Annual 25th percentile wage,       43990
+SD,Web Developers,Annual median wage,       53860
+SD,Web Developers,Annual 75th percentile wage,       64670
+SD,Web Developers,Annual 90th percentile wage,       78140
+TN,Computer Programmers,Annual mean wage,       76740
+TN,Computer Programmers,Annual 10th percentile wage,       49360
+TN,Computer Programmers,Annual 25th percentile wage,       59780
+TN,Computer Programmers,Annual median wage,       74060
+TN,Computer Programmers,Annual 75th percentile wage,       92480
+TN,Computer Programmers,Annual 90th percentile wage,      107490
+TN,"Software Developers, Applications",Annual mean wage,       87580
+TN,"Software Developers, Applications",Annual 10th percentile wage,       49370
+TN,"Software Developers, Applications",Annual 25th percentile wage,       65860
+TN,"Software Developers, Applications",Annual median wage,       87890
+TN,"Software Developers, Applications",Annual 75th percentile wage,      106640
+TN,"Software Developers, Applications",Annual 90th percentile wage,      125770
+TN,"Software Developers, Systems Software",Annual mean wage,       88910
+TN,"Software Developers, Systems Software",Annual 10th percentile wage,       56390
+TN,"Software Developers, Systems Software",Annual 25th percentile wage,       69360
+TN,"Software Developers, Systems Software",Annual median wage,       86890
+TN,"Software Developers, Systems Software",Annual 75th percentile wage,      104950
+TN,"Software Developers, Systems Software",Annual 90th percentile wage,      124870
+TN,Web Developers,Annual mean wage,       61370
+TN,Web Developers,Annual 10th percentile wage,       31170
+TN,Web Developers,Annual 25th percentile wage,       44490
+TN,Web Developers,Annual median wage,       60080
+TN,Web Developers,Annual 75th percentile wage,       76100
+TN,Web Developers,Annual 90th percentile wage,       94060
+TX,Computer Programmers,Annual mean wage,       86200
+TX,Computer Programmers,Annual 10th percentile wage,       48840
+TX,Computer Programmers,Annual 25th percentile wage,       65550
+TX,Computer Programmers,Annual median wage,       82620
+TX,Computer Programmers,Annual 75th percentile wage,      103170
+TX,Computer Programmers,Annual 90th percentile wage,      129020
+TX,"Software Developers, Applications",Annual mean wage,      107280
+TX,"Software Developers, Applications",Annual 10th percentile wage,       65630
+TX,"Software Developers, Applications",Annual 25th percentile wage,       83230
+TX,"Software Developers, Applications",Annual median wage,      107720
+TX,"Software Developers, Applications",Annual 75th percentile wage,      128920
+TX,"Software Developers, Applications",Annual 90th percentile wage,      154310
+TX,"Software Developers, Systems Software",Annual mean wage,      111040
+TX,"Software Developers, Systems Software",Annual 10th percentile wage,       64600
+TX,"Software Developers, Systems Software",Annual 25th percentile wage,       84700
+TX,"Software Developers, Systems Software",Annual median wage,      107340
+TX,"Software Developers, Systems Software",Annual 75th percentile wage,      131960
+TX,"Software Developers, Systems Software",Annual 90th percentile wage,      162150
+TX,Web Developers,Annual mean wage,       71340
+TX,Web Developers,Annual 10th percentile wage,       39170
+TX,Web Developers,Annual 25th percentile wage,       52620
+TX,Web Developers,Annual median wage,       68660
+TX,Web Developers,Annual 75th percentile wage,       88730
+TX,Web Developers,Annual 90th percentile wage,      111440
+UT,Computer Programmers,Annual mean wage,       80930
+UT,Computer Programmers,Annual 10th percentile wage,       47270
+UT,Computer Programmers,Annual 25th percentile wage,       64560
+UT,Computer Programmers,Annual median wage,       77570
+UT,Computer Programmers,Annual 75th percentile wage,       97470
+UT,Computer Programmers,Annual 90th percentile wage,      120630
+UT,"Software Developers, Applications",Annual mean wage,       96790
+UT,"Software Developers, Applications",Annual 10th percentile wage,       53970
+UT,"Software Developers, Applications",Annual 25th percentile wage,       70710
+UT,"Software Developers, Applications",Annual median wage,       94320
+UT,"Software Developers, Applications",Annual 75th percentile wage,      118690
+UT,"Software Developers, Applications",Annual 90th percentile wage,      141830
+UT,"Software Developers, Systems Software",Annual mean wage,      105220
+UT,"Software Developers, Systems Software",Annual 10th percentile wage,       59120
+UT,"Software Developers, Systems Software",Annual 25th percentile wage,       79350
+UT,"Software Developers, Systems Software",Annual median wage,      101130
+UT,"Software Developers, Systems Software",Annual 75th percentile wage,      131010
+UT,"Software Developers, Systems Software",Annual 90th percentile wage,      159730
+UT,Web Developers,Annual mean wage,       66490
+UT,Web Developers,Annual 10th percentile wage,       31720
+UT,Web Developers,Annual 25th percentile wage,       42880
+UT,Web Developers,Annual median wage,       62130
+UT,Web Developers,Annual 75th percentile wage,       80680
+UT,Web Developers,Annual 90th percentile wage,      102010
+VT,Computer Programmers,Annual mean wage,       69140
+VT,Computer Programmers,Annual 10th percentile wage,       36710
+VT,Computer Programmers,Annual 25th percentile wage,       48450
+VT,Computer Programmers,Annual median wage,       66930
+VT,Computer Programmers,Annual 75th percentile wage,       82560
+VT,Computer Programmers,Annual 90th percentile wage,      107640
+VT,"Software Developers, Applications",Annual mean wage,       94940
+VT,"Software Developers, Applications",Annual 10th percentile wage,       61490
+VT,"Software Developers, Applications",Annual 25th percentile wage,       73520
+VT,"Software Developers, Applications",Annual median wage,       93180
+VT,"Software Developers, Applications",Annual 75th percentile wage,      116360
+VT,"Software Developers, Applications",Annual 90th percentile wage,      131640
+VT,Web Developers,Annual mean wage,       65230
+VT,Web Developers,Annual 10th percentile wage,       30920
+VT,Web Developers,Annual 25th percentile wage,       44570
+VT,Web Developers,Annual median wage,       61140
+VT,Web Developers,Annual 75th percentile wage,       86650
+VT,Web Developers,Annual 90th percentile wage,      103610
+VA,Computer Programmers,Annual mean wage,       95520
+VA,Computer Programmers,Annual 10th percentile wage,       53910
+VA,Computer Programmers,Annual 25th percentile wage,       70570
+VA,Computer Programmers,Annual median wage,       93090
+VA,Computer Programmers,Annual 75th percentile wage,      118960
+VA,Computer Programmers,Annual 90th percentile wage,      146740
+VA,"Software Developers, Applications",Annual mean wage,      111010
+VA,"Software Developers, Applications",Annual 10th percentile wage,       64500
+VA,"Software Developers, Applications",Annual 25th percentile wage,       79180
+VA,"Software Developers, Applications",Annual median wage,      106500
+VA,"Software Developers, Applications",Annual 75th percentile wage,      139500
+VA,"Software Developers, Applications",Annual 90th percentile wage,      165170
+VA,"Software Developers, Systems Software",Annual mean wage,      121560
+VA,"Software Developers, Systems Software",Annual 10th percentile wage,       74130
+VA,"Software Developers, Systems Software",Annual 25th percentile wage,       93320
+VA,"Software Developers, Systems Software",Annual median wage,      119430
+VA,"Software Developers, Systems Software",Annual 75th percentile wage,      148870
+VA,"Software Developers, Systems Software",Annual 90th percentile wage,      170510
+VA,Web Developers,Annual mean wage,       85870
+VA,Web Developers,Annual 10th percentile wage,       41640
+VA,Web Developers,Annual 25th percentile wage,       58800
+VA,Web Developers,Annual median wage,       82180
+VA,Web Developers,Annual 75th percentile wage,      106140
+VA,Web Developers,Annual 90th percentile wage,      127820
+WA,Computer Programmers,Annual mean wage,      121000
+WA,Computer Programmers,Annual 10th percentile wage,       70150
+WA,Computer Programmers,Annual 25th percentile wage,       98480
+WA,Computer Programmers,Annual median wage,      124900
+WA,Computer Programmers,Annual 75th percentile wage,      148920
+WA,Computer Programmers,Annual 90th percentile wage,      164250
+WA,"Software Developers, Applications",Annual mean wage,      131430
+WA,"Software Developers, Applications",Annual 10th percentile wage,       79480
+WA,"Software Developers, Applications",Annual 25th percentile wage,      105200
+WA,"Software Developers, Applications",Annual median wage,      127770
+WA,"Software Developers, Applications",Annual 75th percentile wage,      156860
+WA,"Software Developers, Applications",Annual 90th percentile wage,      189120
+WA,"Software Developers, Systems Software",Annual mean wage,      117810
+WA,"Software Developers, Systems Software",Annual 10th percentile wage,       72490
+WA,"Software Developers, Systems Software",Annual 25th percentile wage,       93430
+WA,"Software Developers, Systems Software",Annual median wage,      117280
+WA,"Software Developers, Systems Software",Annual 75th percentile wage,      142920
+WA,"Software Developers, Systems Software",Annual 90th percentile wage,      164280
+WA,Web Developers,Annual mean wage,       92260
+WA,Web Developers,Annual 10th percentile wage,       50600
+WA,Web Developers,Annual 25th percentile wage,       65280
+WA,Web Developers,Annual median wage,       87190
+WA,Web Developers,Annual 75th percentile wage,      116150
+WA,Web Developers,Annual 90th percentile wage,      145800
+WV,Computer Programmers,Annual mean wage,       80420
+WV,Computer Programmers,Annual 10th percentile wage,       38030
+WV,Computer Programmers,Annual 25th percentile wage,       47170
+WV,Computer Programmers,Annual median wage,       64950
+WV,Computer Programmers,Annual 75th percentile wage,       92530
+WV,Computer Programmers,Annual 90th percentile wage,      129730
+WV,"Software Developers, Applications",Annual mean wage,       86390
+WV,"Software Developers, Applications",Annual 10th percentile wage,       40140
+WV,"Software Developers, Applications",Annual 25th percentile wage,       59340
+WV,"Software Developers, Applications",Annual median wage,       78840
+WV,"Software Developers, Applications",Annual 75th percentile wage,      107990
+WV,"Software Developers, Applications",Annual 90th percentile wage,      140620
+WV,"Software Developers, Systems Software",Annual mean wage,       92710
+WV,"Software Developers, Systems Software",Annual 10th percentile wage,       46430
+WV,"Software Developers, Systems Software",Annual 25th percentile wage,       64460
+WV,"Software Developers, Systems Software",Annual median wage,       85020
+WV,"Software Developers, Systems Software",Annual 75th percentile wage,      102930
+WV,"Software Developers, Systems Software",Annual 90th percentile wage,      138480
+WV,Web Developers,Annual mean wage,       54410
+WV,Web Developers,Annual 10th percentile wage,       30660
+WV,Web Developers,Annual 25th percentile wage,       40470
+WV,Web Developers,Annual median wage,       51320
+WV,Web Developers,Annual 75th percentile wage,       66810
+WV,Web Developers,Annual 90th percentile wage,       82690
+WI,Computer Programmers,Annual mean wage,       76190
+WI,Computer Programmers,Annual 10th percentile wage,       45960
+WI,Computer Programmers,Annual 25th percentile wage,       57050
+WI,Computer Programmers,Annual median wage,       72410
+WI,Computer Programmers,Annual 75th percentile wage,       91090
+WI,Computer Programmers,Annual 90th percentile wage,      104040
+WI,"Software Developers, Applications",Annual mean wage,       85580
+WI,"Software Developers, Applications",Annual 10th percentile wage,       54400
+WI,"Software Developers, Applications",Annual 25th percentile wage,       67430
+WI,"Software Developers, Applications",Annual median wage,       82790
+WI,"Software Developers, Applications",Annual 75th percentile wage,      100560
+WI,"Software Developers, Applications",Annual 90th percentile wage,      122520
+WI,"Software Developers, Systems Software",Annual mean wage,       87300
+WI,"Software Developers, Systems Software",Annual 10th percentile wage,       56370
+WI,"Software Developers, Systems Software",Annual 25th percentile wage,       69400
+WI,"Software Developers, Systems Software",Annual median wage,       84820
+WI,"Software Developers, Systems Software",Annual 75th percentile wage,      100930
+WI,"Software Developers, Systems Software",Annual 90th percentile wage,      121990
+WI,Web Developers,Annual mean wage,       52810
+WI,Web Developers,Annual 10th percentile wage,       29590
+WI,Web Developers,Annual 25th percentile wage,       36630
+WI,Web Developers,Annual median wage,       48980
+WI,Web Developers,Annual 75th percentile wage,       65450
+WI,Web Developers,Annual 90th percentile wage,       81270
+WY,Computer Programmers,Annual mean wage,       65480
+WY,Computer Programmers,Annual 10th percentile wage,       34540
+WY,Computer Programmers,Annual 25th percentile wage,       39050
+WY,Computer Programmers,Annual median wage,       60260
+WY,Computer Programmers,Annual 75th percentile wage,       81740
+WY,Computer Programmers,Annual 90th percentile wage,       95820
+WY,"Software Developers, Applications",Annual mean wage,       69380
+WY,"Software Developers, Applications",Annual 10th percentile wage,       46930
+WY,"Software Developers, Applications",Annual 25th percentile wage,       57130
+WY,"Software Developers, Applications",Annual median wage,       64540
+WY,"Software Developers, Applications",Annual 75th percentile wage,       79810
+WY,"Software Developers, Applications",Annual 90th percentile wage,       99380
+WY,"Software Developers, Systems Software",Annual mean wage,       89420
+WY,"Software Developers, Systems Software",Annual 10th percentile wage,       49260
+WY,"Software Developers, Systems Software",Annual 25th percentile wage,       64420
+WY,"Software Developers, Systems Software",Annual median wage,       89990
+WY,"Software Developers, Systems Software",Annual 75th percentile wage,      113740
+WY,"Software Developers, Systems Software",Annual 90th percentile wage,      125500
+WY,Web Developers,Annual mean wage,       70400
+WY,Web Developers,Annual 10th percentile wage,       32640
+WY,Web Developers,Annual 25th percentile wage,       39200
+WY,Web Developers,Annual median wage,       52420
+WY,Web Developers,Annual 75th percentile wage,       66610
+WY,Web Developers,Annual 90th percentile wage,      115420
+PR,Computer Programmers,Annual mean wage,       48260
+PR,Computer Programmers,Annual 10th percentile wage,       23800
+PR,Computer Programmers,Annual 25th percentile wage,       32740
+PR,Computer Programmers,Annual median wage,       45380
+PR,Computer Programmers,Annual 75th percentile wage,       61030
+PR,Computer Programmers,Annual 90th percentile wage,       76080
+PR,"Software Developers, Applications",Annual mean wage,       57430
+PR,"Software Developers, Applications",Annual 10th percentile wage,       29650
+PR,"Software Developers, Applications",Annual 25th percentile wage,       40180
+PR,"Software Developers, Applications",Annual median wage,       54620
+PR,"Software Developers, Applications",Annual 75th percentile wage,       72560
+PR,"Software Developers, Applications",Annual 90th percentile wage,       91020
+PR,"Software Developers, Systems Software",Annual mean wage,       62120
+PR,"Software Developers, Systems Software",Annual 10th percentile wage,       37660
+PR,"Software Developers, Systems Software",Annual 25th percentile wage,       46330
+PR,"Software Developers, Systems Software",Annual median wage,       58310
+PR,"Software Developers, Systems Software",Annual 75th percentile wage,       72500
+PR,"Software Developers, Systems Software",Annual 90th percentile wage,       88420
+PR,Web Developers,Annual mean wage,       37770
+PR,Web Developers,Annual 10th percentile wage,       21880
+PR,Web Developers,Annual 25th percentile wage,       27280
+PR,Web Developers,Annual median wage,       35780
+PR,Web Developers,Annual 75th percentile wage,       45830
+PR,Web Developers,Annual 90th percentile wage,       55300
