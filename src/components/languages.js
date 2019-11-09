@@ -10,7 +10,7 @@ const LAYOUT = {
   title: 'Programming Language Popularity (TIOBE Index)',
   margin: {'l': 50, 'b': 50, 't': 60, 'r': 10},
   titlefont: { size: 30 },
-  xaxis: { title: 'Year' },
+  xaxis: { title: 'Date' },
   yaxis: { title: 'Rating' },
 };
 
