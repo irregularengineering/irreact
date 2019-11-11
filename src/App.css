@@ -70,7 +70,23 @@
   font-weight: bold;
 }
 
-.plot {
+.container {
   margin: 10px;
 }
 
+.chart-title {
+  font-size: 30px;
+  text-align: middle;
+}
+
+.plot {
+  width: 900px;
+}
+
+.dropdown {
+  width: 900px;
+}
+
+.stats-table {
+  width: 900px;
+}
