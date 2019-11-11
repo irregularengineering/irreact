@@ -7,9 +7,7 @@ const SOURCE = 'https://www.npmjs.com/';
 const LAYOUT = {
   width: 900, 
   height: 500,
-  title: 'Javascript Web Framework Weekly Downloads',
   margin: {'l': 50, 'b': 50, 't': 60, 'r': 10},
-  titlefont: { size: 30 },
   xaxis: { title: 'Date' },
   yaxis: { title: 'Downloads' },
 };
@@ -51,12 +49,19 @@ class Frameworks extends Component {
   render() {
     let { plotData } = this.state;
     return (
-      <div className="plot">
-        <Plot
-          data={ plotData }
-          layout={ LAYOUT }
-        />
-        <div><a href={ SOURCE } target="_blank" rel="noopener noreferrer">Source: { SOURCE }</a></div>
+      <div className="container">
+        <div className="chart-title">
+          Javascript Web Framework Weekly Downloads
+        </div>
+        <div className="plot">
+          <Plot
+            data={plotData}
+            layout={LAYOUT}
+          />
+        </div>
+        <div className="source-link">
+          <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
+        </div>
       </div>
     );
   }
