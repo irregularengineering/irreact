@@ -15,7 +15,6 @@ const LAYOUT = {
 
 const PRICE_MEASURE = 'Price';
 const PRICE_PER_SQFT_MEASURE = 'Price Per Square Foot';
-// const MEASURES = [PRICE_MEASURE, PRICE_PER_SQFT_MEASURE];
 
 const DEFAULT_CITIES = [
   'Mountain View',
@@ -97,7 +96,6 @@ class Housing extends Component {
   }
 
   loadData(selectedCities, selectedMeasure, priceData, squareFootData) {
-    // let { priceData, squareFootData } = this.state;
     let rows = selectedMeasure === PRICE_MEASURE ? priceData : squareFootData;
     let plotData = (selectedCities || []).map(city => {
       let cityRows = rows.filter(row => row.city === city.value);
@@ -128,28 +126,6 @@ class Housing extends Component {
             placeholder='Select cities...'
           />
         </div>
-        {/* <div className="radio">
-          <label>
-            <input 
-              type="radio" 
-              value={PRICE_MEASURE} 
-              checked={selectedMeasure === PRICE_MEASURE} 
-              onChange={() => this.measureSelected(PRICE_MEASURE)}
-            />
-            {PRICE_MEASURE}
-          </label>
-        </div>
-        <div className="radio">
-          <label>
-            <input 
-              type="radio" 
-              value={PRICE_PER_SQFT_MEASURE} 
-              checked={selectedMeasure === PRICE_PER_SQFT_MEASURE} 
-              onChange={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
-            />
-            {PRICE_PER_SQFT_MEASURE}
-          </label>
-        </div> */}
         <div className="radio">
           <ButtonGroup>
             <Button 
