@@ -146,7 +146,7 @@ class Careers extends Component {
       <table className="table stats-table">
         <thead>
           <tr>
-            <th>Occupation</th>
+            <th>{`Occupation (${state})`}</th>
             {TABLE_COLUMNS.map(column => {
               return [<th key={column}>{column}</th>]
             })}

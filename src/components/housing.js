@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Plot from 'react-plotly.js';
 import Plotly from 'plotly.js';
 import Select from 'react-select';
+import { Button, ButtonGroup } from 'react-bootstrap';
 
 const SOURCE = 'https://www.zillow.com/research/data/';
 
@@ -10,19 +11,17 @@ const LAYOUT = {
   height: 500,
   margin: {'l': 50, 'b': 50, 't': 60, 'r': 10},
   xaxis: { title: 'Date' },
-  yaxis: { title: 'Downloads' },
 };
 
-const MEASURES = [
-  { value: 'price', label: 'Price' },
-  { value: 'price_per_square_foot', label: 'Price per square foot' },
-]
+const PRICE_MEASURE = 'Price';
+const PRICE_PER_SQFT_MEASURE = 'Price Per Square Foot';
+// const MEASURES = [PRICE_MEASURE, PRICE_PER_SQFT_MEASURE];
 
 const DEFAULT_CITIES = [
   'Mountain View',
   'Redwood City',
   'Palo Alto',
-  'Los Altos',
+  'San Mateo',
 ].map(city => {
   return { value: city, label: city }
 });
@@ -34,14 +33,15 @@ class Housing extends Component {
     super(props);
     this.measureSelected = this.measureSelected.bind(this);
     this.citiesChanged = this.citiesChanged.bind(this);
+    this.loadData = this.loadData.bind(this);
     this.state = {
-      priceCities: null,
-      priceData: null,
-      squareFootCities: null,
-      squareFootData: null,
-      cityOptions: null,
-      selectedCities: DEFAULT_CITIES,
-      selectedMeasure: MEASURES[0],
+      priceCities: [],
+      priceData: [],
+      squareFootCities: [],
+      squareFootData: [],
+      cityOptions: [],
+      selectedCities: [],
+      selectedMeasure: null,
     };
   }
 
@@ -56,6 +56,10 @@ class Housing extends Component {
         this.setState({ priceCities });
         this.setState({ priceData: rows });
         this.setState({ cityOptions: priceCities } );
+        this.setState({ selectedCities: DEFAULT_CITIES } );
+        this.setState({ selectedMeasure: PRICE_MEASURE } );
+        this.setState({ layout: { ...LAYOUT, yaxis: {title: PRICE_MEASURE } } });
+        this.loadData(DEFAULT_CITIES, PRICE_MEASURE, rows, []);
       }
     });
     Plotly.d3.csv('/data/housing_price_per_foot_data.csv', (err, rows) => {
@@ -70,28 +74,46 @@ class Housing extends Component {
     });
   }
 
-
-
   componentWillUnmount() {
     this._isMounted = false;
   }
 
   citiesChanged(selectedCities) {
-    // let { selectedMeasure, priceCities, squareFootCities } = this.state;
-    // if (selectedMeasure === 'Price') {
-    //   this.setState({ cityOptions: priceCities });
-    // } else {
-    //   this.setState({ cityOptions: squareFootCities });
-    // }
-    // this.setState({ selectedCities });
+    let { selectedMeasure, priceData, squareFootData } = this.state;
+    this.loadData(selectedCities, selectedMeasure, priceData, squareFootData);
+    this.setState({ selectedCities });
   }
 
-  measureSelected(measure) {
-    // this.setState({ measure });
+  measureSelected(selectedMeasure) {
+    let { priceCities, squareFootCities, selectedCities, priceData, squareFootData } = this.state;
+    this.loadData(selectedCities, selectedMeasure, priceData, squareFootData);
+    if (selectedMeasure === PRICE_MEASURE) {
+      this.setState({ cityOptions: priceCities });
+    } else {
+      this.setState({ cityOptions: squareFootCities });
+    }
+    this.setState({ layout: { ...LAYOUT, yaxis: {title: selectedMeasure } } });
+    this.setState({ selectedMeasure });
+  }
+
+  loadData(selectedCities, selectedMeasure, priceData, squareFootData) {
+    // let { priceData, squareFootData } = this.state;
+    let rows = selectedMeasure === PRICE_MEASURE ? priceData : squareFootData;
+    let plotData = (selectedCities || []).map(city => {
+      let cityRows = rows.filter(row => row.city === city.value);
+      return {
+        type: 'scatter',
+        mode: 'lines',
+        name: city.label,
+        x: cityRows.map(row => row.date),
+        y: cityRows.map(row => row.price),
+      };
+    });
+    this.setState({ plotData });
   }
 
   render() {
-    let { selectedMeasure, selectedCities, cityOptions } = this.state;
+    let { selectedMeasure, selectedCities, cityOptions, plotData, layout } = this.state;
     return (
       <div className="container">
         <div className="chart-title">
@@ -106,15 +128,55 @@ class Housing extends Component {
             placeholder='Select cities...'
           />
         </div>
-        {/* <div className="plot">
+        {/* <div className="radio">
+          <label>
+            <input 
+              type="radio" 
+              value={PRICE_MEASURE} 
+              checked={selectedMeasure === PRICE_MEASURE} 
+              onChange={() => this.measureSelected(PRICE_MEASURE)}
+            />
+            {PRICE_MEASURE}
+          </label>
+        </div>
+        <div className="radio">
+          <label>
+            <input 
+              type="radio" 
+              value={PRICE_PER_SQFT_MEASURE} 
+              checked={selectedMeasure === PRICE_PER_SQFT_MEASURE} 
+              onChange={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
+            />
+            {PRICE_PER_SQFT_MEASURE}
+          </label>
+        </div> */}
+        <div className="radio">
+          <ButtonGroup>
+            <Button 
+              className="radio-button"
+              active={selectedMeasure === PRICE_MEASURE} 
+              onClick={() => this.measureSelected(PRICE_MEASURE)}
+            >
+              {PRICE_MEASURE}
+            </Button>
+            <Button 
+              className="radio-button"
+              active={selectedMeasure === PRICE_PER_SQFT_MEASURE}
+              onClick={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
+            >
+              {PRICE_PER_SQFT_MEASURE}
+            </Button>
+          </ButtonGroup>
+        </div>
+        <div className="plot">
           <Plot
             data={plotData}
-            layout={LAYOUT}
+            layout={layout}
           />
         </div>
         <div className="source-link">
           <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
-        </div> */}
+        </div>
       </div>
     );
   }
