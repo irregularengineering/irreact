@@ -76,7 +76,7 @@
 
 .chart-title {
   font-size: 30px;
-  text-align: middle;
+  display: inline-block;
 }
 
 .plot {
@@ -92,15 +92,14 @@
 }
 
 .radio {
-  width: 900px;
-  margin-top: 10px;
+  float: right;
 }
 
 .radio-button {
   color: #343a40;
   background-color: #ffffff;
   border-color: #343a40;
-  width: 200px;
+  width: 150px;
 }
 
 .radio-button.btn.active.btn-primary {
@@ -108,5 +107,9 @@
   background-color: #838b96;
   border-color: #343a40;
   font-weight: bold;
-  width: 200px;
+  width: 150px;
+}
+
+.header {
+  width: 900px;
 }
