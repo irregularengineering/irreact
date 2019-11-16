@@ -75,6 +75,7 @@
 }
 
 .chart-title {
+  color: #343a40;
   font-size: 30px;
   display: inline-block;
 }
@@ -122,10 +123,11 @@
 
 .dropdown, div[class$="control"] {
   border-width: 2px;
-  border-color: #000000;
+  border-color: #343a40;
   border-radius: 1.5px;
 }
 
 .dropdown, div[class$="multiValue"] {
+  color: #343a40;
   background-color: #c7ccd1;
 }
