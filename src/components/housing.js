@@ -13,8 +13,8 @@ const LAYOUT = {
   xaxis: { title: 'Date' },
 };
 
-const PRICE_MEASURE = 'Price';
-const PRICE_PER_SQFT_MEASURE = 'Price Per Square Foot';
+const PRICE_MEASURE = 'PRICE';
+const PRICE_PER_SQFT_MEASURE = 'PRICE PER SQ FT';
 
 const DEFAULT_CITIES = [
   'Mountain View',
@@ -114,8 +114,28 @@ class Housing extends Component {
     let { selectedMeasure, selectedCities, cityOptions, plotData, layout } = this.state;
     return (
       <div className="container">
-        <div className="chart-title">
-          Median Monthly Sale Price by California City
+        <div className="header">
+          <div className="chart-title">
+            Median Monthly Sale Price by California City
+          </div>
+          <div className="radio">
+            <ButtonGroup>
+              <Button 
+                className="radio-button"
+                active={selectedMeasure === PRICE_MEASURE} 
+                onClick={() => this.measureSelected(PRICE_MEASURE)}
+              >
+                {PRICE_MEASURE}
+              </Button>
+              <Button 
+                className="radio-button"
+                active={selectedMeasure === PRICE_PER_SQFT_MEASURE}
+                onClick={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
+              >
+                {PRICE_PER_SQFT_MEASURE}
+              </Button>
+            </ButtonGroup>
+          </div>
         </div>
         <div className="dropdown">
           <Select
@@ -125,24 +145,6 @@ class Housing extends Component {
             isMulti={true}
             placeholder='Select cities...'
           />
-        </div>
-        <div className="radio">
-          <ButtonGroup>
-            <Button 
-              className="radio-button"
-              active={selectedMeasure === PRICE_MEASURE} 
-              onClick={() => this.measureSelected(PRICE_MEASURE)}
-            >
-              {PRICE_MEASURE}
-            </Button>
-            <Button 
-              className="radio-button"
-              active={selectedMeasure === PRICE_PER_SQFT_MEASURE}
-              onClick={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
-            >
-              {PRICE_PER_SQFT_MEASURE}
-            </Button>
-          </ButtonGroup>
         </div>
         <div className="plot">
           <Plot

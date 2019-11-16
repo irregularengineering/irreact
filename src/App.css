@@ -75,8 +75,9 @@
 }
 
 .chart-title {
+  color: #343a40;
   font-size: 30px;
-  text-align: middle;
+  display: inline-block;
 }
 
 .plot {
@@ -85,6 +86,8 @@
 
 .dropdown {
   width: 900px;
+  border-width: 2px;
+  border-radius: 0px;
 }
 
 .stats-table {
@@ -92,21 +95,39 @@
 }
 
 .radio {
-  width: 900px;
-  margin-top: 10px;
+  float: right;
+  padding-top: 6px;
 }
 
 .radio-button {
   color: #343a40;
   background-color: #ffffff;
   border-color: #343a40;
-  width: 200px;
+  border-width: 2px;
+  border-radius: 0px;
+  width: 150px;
+  font-size: 12px;
 }
 
 .radio-button.btn.active.btn-primary {
-  color: #ffffff;
-  background-color: #838b96;
+  color: #343a40;
+  background-color: #c7ccd1;
   border-color: #343a40;
   font-weight: bold;
-  width: 200px;
+  width: 150px;
+}
+
+.header {
+  width: 900px;
+}
+
+.dropdown, div[class$="control"] {
+  border-width: 2px;
+  border-color: #343a40;
+  border-radius: 1.5px;
+}
+
+.dropdown, div[class$="multiValue"] {
+  color: #343a40;
+  background-color: #c7ccd1;
 }
