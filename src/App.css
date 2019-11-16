@@ -85,6 +85,8 @@
 
 .dropdown {
   width: 900px;
+  border-width: 2px;
+  border-radius: 0px;
 }
 
 .stats-table {
@@ -93,18 +95,22 @@
 
 .radio {
   float: right;
+  padding-top: 6px;
 }
 
 .radio-button {
   color: #343a40;
   background-color: #ffffff;
   border-color: #343a40;
+  border-width: 2px;
+  border-radius: 0px;
   width: 150px;
+  font-size: 12px;
 }
 
 .radio-button.btn.active.btn-primary {
-  color: #ffffff;
-  background-color: #838b96;
+  color: #343a40;
+  background-color: #c7ccd1;
   border-color: #343a40;
   font-weight: bold;
   width: 150px;
@@ -112,4 +118,14 @@
 
 .header {
   width: 900px;
+}
+
+.dropdown, div[class$="control"] {
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 1.5px;
+}
+
+.dropdown, div[class$="multiValue"] {
+  background-color: #c7ccd1;
 }

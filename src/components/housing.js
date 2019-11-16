@@ -13,8 +13,8 @@ const LAYOUT = {
   xaxis: { title: 'Date' },
 };
 
-const PRICE_MEASURE = 'Price';
-const PRICE_PER_SQFT_MEASURE = 'Price Per Sq Ft';
+const PRICE_MEASURE = 'PRICE';
+const PRICE_PER_SQFT_MEASURE = 'PRICE PER SQ FT';
 
 const DEFAULT_CITIES = [
   'Mountain View',
@@ -139,6 +139,7 @@ class Housing extends Component {
         </div>
         <div className="dropdown">
           <Select
+            id='yo'
             value={selectedCities}
             onChange={this.citiesChanged}
             options={cityOptions}
