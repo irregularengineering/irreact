@@ -139,7 +139,6 @@ class Housing extends Component {
         </div>
         <div className="dropdown">
           <Select
-            id='yo'
             value={selectedCities}
             onChange={this.citiesChanged}
             options={cityOptions}
