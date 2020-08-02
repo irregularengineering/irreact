@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Plot from 'react-plotly.js';
 import Plotly from 'plotly.js';
 
@@ -12,18 +12,12 @@ const LAYOUT = {
   yaxis: { title: 'Downloads' },
 };
 
-class Frameworks extends Component {
-  _isMounted = false;
+export default function Frameworks () {
+  const [plotData, setPlotData] = useState();
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      plotData: null,
-    };
-  }
+  useEffect(() => {
+    let mounted = true;
 
-  componentDidMount() {
-    this._isMounted = true;
     Plotly.d3.csv('/data/npm_downloads.csv', (err, rows) => {
       let frameworks = [...new Set(rows.map(row => row.framework))];
       let plotData = frameworks.map(framework => {
@@ -36,35 +30,28 @@ class Frameworks extends Component {
           y: frameworkRows.map(row => row.downloads),
         };
       });
-      if (this._isMounted) {
-        this.setState({ plotData: plotData });
+      if (mounted) {
+        setPlotData(plotData);
       }
     });
-  }
 
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
+    return () => mounted = false;
+  });
 
-  render() {
-    let { plotData } = this.state;
-    return (
-      <div className="container">
-        <div className="chart-title">
-          Javascript Web Framework Weekly Downloads
-        </div>
-        <div className="plot">
-          <Plot
-            data={plotData}
-            layout={LAYOUT}
-          />
-        </div>
-        <div className="source-link">
-          <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
-        </div>
+  return (
+    <div className="container">
+      <div className="chart-title">
+        Javascript Web Framework Weekly Downloads
       </div>
-    );
-  }
+      <div className="plot">
+        <Plot
+          data={plotData}
+          layout={LAYOUT}
+        />
+      </div>
+      <div className="source-link">
+        <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
+      </div>
+    </div>
+  );
 }
-
-export default Frameworks;
