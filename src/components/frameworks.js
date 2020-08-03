@@ -36,7 +36,7 @@ export default function Frameworks () {
     });
 
     return () => mounted = false;
-  });
+  }, []);
 
   return (
     <div className="container">

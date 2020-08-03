@@ -33,14 +33,14 @@ export default function Housing() {
   const [squareFootData, setSquareFootData] = useState();
 
   const [cityOptions, setCityOptions] = useState();
-  const [selectedCities, setSelectedCities] = useState(DEFAULT_CITIES);
-  const [selectedMeasure, setSelectedMeasure] = useState(PRICE_MEASURE);
+  const [selectedCities, setSelectedCities] = useState();
+  const [selectedMeasure, setSelectedMeasure] = useState();
   const [layout, setLayout] = useState({ ...LAYOUT, yaxis: {title: PRICE_MEASURE } });
   const [plotData, setPlotData] = useState();
 
   function handleCitiesChanged(selectedCities) { 
     setSelectedCities(selectedCities);
-    loadData(selectedCities, selectedMeasure);
+    loadData(selectedCities, selectedMeasure, priceData, squareFootData);
   }
   
   function handleMeasureSelected(selectedMeasure) {
@@ -51,10 +51,10 @@ export default function Housing() {
     }
     setLayout({ ...LAYOUT, yaxis: {title: selectedMeasure } });
     setSelectedMeasure(selectedMeasure);
-    loadData(selectedCities, selectedMeasure);
+    loadData(selectedCities, selectedMeasure, priceData, squareFootData);
   }
 
-  function loadData(selectedCities, selectedMeasure) {
+  function loadData(selectedCities, selectedMeasure, priceData, squareFootData) {
     let rows = selectedMeasure === PRICE_MEASURE ? priceData : squareFootData;
     if (!rows) {
       return;
@@ -84,22 +84,27 @@ export default function Housing() {
         setPriceCities(priceCities);
         setPriceData(priceData);
         setCityOptions(priceCities);
-        loadData(selectedCities, selectedMeasure);
+        let selectedCities = DEFAULT_CITIES;
+        let selectedMeasure = PRICE_MEASURE;
+        setSelectedCities(selectedCities);
+        setSelectedMeasure(selectedMeasure);
+        loadData(selectedCities, selectedMeasure, priceData, []);
       }
-    });
-    Plotly.d3.csv('/data/housing_price_per_foot_data.csv', (err, squareFootData) => {
-      let squareFootCitiesList = [...new Set(squareFootData.map(row => row.city))].sort();
-      let squareFootCities = squareFootCitiesList.map(city => {
-        return { value: city, label: city }
+
+      Plotly.d3.csv('/data/housing_price_per_foot_data.csv', (err, squareFootData) => {
+        let squareFootCitiesList = [...new Set(squareFootData.map(row => row.city))].sort();
+        let squareFootCities = squareFootCitiesList.map(city => {
+          return { value: city, label: city }
+        });
+        if (mounted) {
+          setSquareFootCities(squareFootCities);
+          setSquareFootData(squareFootData);
+        }
       });
-      if (mounted) {
-        setSquareFootCities(squareFootCities);
-        setSquareFootData(squareFootData);
-      }
     });
 
     return () => mounted = false;
-  });
+  }, []);
 
   return (
     <div className="container">

@@ -31,12 +31,12 @@ export default function Languages() {
         };
       });
       if (mounted) {
-        setPlotData(plotData)
+        setPlotData(plotData);
       }
     });
 
     return () => mounted = false;
-  })
+  }, []);
 
   return (
     <div className="container">

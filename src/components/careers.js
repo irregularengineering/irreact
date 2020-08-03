@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import NumberFormat from 'react-number-format'
 import Plot from 'react-plotly.js';
 import Plotly from 'plotly.js';
@@ -52,49 +52,17 @@ const TABLE_COLUMNS = [
   '90th Ptile',
 ];
 
-class Careers extends Component {
-  _isMounted = false;
+export default function Careers() {
+  const [occupations, setOccupations] = useState();
+  const [occupationData, setOccupationData] = useState();
+  const [selectedOccupation, setSelectedOccupation] = useState();
+  const [stateMap, setStateMap] = useState();
+  const [plotData, setPlotData] = useState([PLOT_DATA_PLACEHOLDER]);
+  const [stateHovered, setStateHovered] = useState();
 
-  constructor(props) {
-    super(props);
-    this.occupationSelected = this.occupationSelected.bind(this);
-    this.updatePlotData = this.updatePlotData.bind(this);
-    this.stateHovered = this.stateHovered.bind(this);
-    this.state = {
-      plotData: null,
-      selectedOccupation: null,
-      occupations: null,
-      rows: null,
-      stateMap: null,
-      stateHovered: null,
-    };
-  }
-
-  componentDidMount() {
-    this._isMounted = true;
-    Plotly.d3.csv('/data/occupation_data.csv', (err, rows) => {
-      if (this._isMounted) {
-        let occupationsList = [...new Set(rows.map(row => row.occupation))].sort();
-        let occupations = occupationsList.map(occupation => {
-          return { value: occupation, label: occupation }
-        });
-        this.setState({ rows });
-        this.setState({ occupations });;
-        let selectedOccupation = occupations[0];
-        this.updatePlotData(selectedOccupation, rows);
-        this.setState({ selectedOccupation });
-        this.setState({ stateMap: this.buildStateMap(rows) });
-      }
-    });
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
-
-  buildStateMap(rows) {
+  function buildStateMap(occupationData) {
     let stateMap = {}
-    rows.forEach(row => {
+    occupationData.forEach(row => {
       if (!(row.state in stateMap)) {
         stateMap[row.state] = {};
       }
@@ -109,38 +77,43 @@ class Careers extends Component {
     return stateMap;
   };
 
-  occupationSelected(selectedOccupation) {
-    let { rows } = this.state;
-    this.setState({ selectedOccupation });
+  function handleOccupationSelected(selectedOccupation) {
+    setSelectedOccupation(selectedOccupation);
     if (selectedOccupation === null) {
-      this.setState({ plotData: [PLOT_DATA_PLACEHOLDER] });
+      setPlotData([PLOT_DATA_PLACEHOLDER]);
       return;
     }
-    this.updatePlotData(selectedOccupation, rows);
+    updatePlotData(occupationData, selectedOccupation);
   }
 
-  updatePlotData(selectedOccupation, rows) {
-    let occupationRows = rows.filter(row => 
+  function updatePlotData(occupationData, selectedOccupation) {
+    if (!occupationData || !selectedOccupation) {
+      console.log('Unable to plot');
+      console.log(occupationData);
+      console.log(selectedOccupation);
+      return;
+    }
+    let occupationRows = occupationData.filter(row => 
       row.occupation === selectedOccupation.value && row.measure === 'Annual median wage'
     );
     let plotData = Object.assign({}, PLOT_DATA_PLACEHOLDER);
     plotData.locations = occupationRows.map(row => row.state);
     plotData.z = occupationRows.map(row => row.value);
-    this.setState({ plotData: [plotData] });
+    setPlotData([plotData]);
   }
 
-  stateHovered(hoverEvent) {
+  function handleStateHovered(hoverEvent) {
     if (!hoverEvent || !hoverEvent.points) {
       return;
     }
-    this.setState({ stateHovered: hoverEvent.points[0].location });
+    setStateHovered(hoverEvent.points[0].location);
   }
 
-  renderStatsTable(state, stateMap, occupations) {
+  function renderStatsTable(state) {
     if (!state) {
       return;
     }
-    let tableRows = this.renderTableRows(stateMap[state], occupations);
+    let tableRows = renderTableRows(stateMap[state], occupations);
     return (
       <div>
       <table className="table stats-table">
@@ -158,7 +131,7 @@ class Careers extends Component {
     );
   }
 
-  renderTableRows(stateStats, occupations) {
+  function renderTableRows(stateStats, occupations) {
     return (
       <tbody>
         {occupations.map((occupation, key) => {
@@ -181,38 +154,54 @@ class Careers extends Component {
     );
   }
 
-  render() {
-    let { plotData, occupations, selectedOccupation, stateHovered, stateMap } = this.state;
+  useEffect(() => {
+    let mounted = true;
 
-    let statsTable = this.renderStatsTable(stateHovered, stateMap, occupations);
+    Plotly.d3.csv('/data/occupation_data.csv', (err, occupationData) => {
+      if (mounted) {
+        let occupationsList = [...new Set(occupationData.map(row => row.occupation))].sort();
+        let occupations = occupationsList.map(occupation => {
+          return { value: occupation, label: occupation }
+        });
+        let selectedOccupation = occupations[0];
+        setOccupationData(occupationData);
+        setOccupations(occupations);
+        setSelectedOccupation(selectedOccupation);
+        setStateMap(buildStateMap(occupationData));
+        updatePlotData(occupationData, selectedOccupation);
+      }
+    });
 
-    return (
-      <div className="container">
-        <div className="chart-title">
-          Software Engineer Median Annual Salary by State
-        </div>
-        <div className="dropdown">
-          <Select
-            value={selectedOccupation}
-            onChange={this.occupationSelected}
-            options={occupations}
-            placeholder='Select an occupation...'
-          />
-        </div>
-        <div className="plot">
-          <Plot
-            data={plotData}
-            layout={LAYOUT}
-            onHover={this.stateHovered}
-          />
-        </div>
-        {statsTable}
-        <div className="source-link">
-          <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
-        </div>
+    return () => mounted = false;
+  }, []);
+
+
+  let statsTable = renderStatsTable(stateHovered);
+
+  return (
+    <div className="container">
+      <div className="chart-title">
+        Software Engineer Median Annual Salary by State
       </div>
-    );
-  }
+      <div className="dropdown">
+        <Select
+          value={selectedOccupation}
+          onChange={handleOccupationSelected}
+          options={occupations}
+          placeholder='Select an occupation...'
+        />
+      </div>
+      <div className="plot">
+        <Plot
+          data={plotData}
+          layout={LAYOUT}
+          onHover={handleStateHovered}
+        />
+      </div>
+      {statsTable}
+      <div className="source-link">
+        <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
+      </div>
+    </div>
+  );
 }
-
-export default Careers;
