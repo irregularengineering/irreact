@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import banner from './irregular_banner.png';
@@ -16,59 +16,34 @@ const TABS = {
   housing: "/housing"
 };
 
-class App extends Component {
+export default function App() {
+  const [selectedTab, setSelectedTab] = useState();
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedTab: null
-    }
+  function getTabClass(tabName) {
+    return selectedTab === tabName ? "navbar-link-selected" : "navbar-link";
   }
 
-  componentDidMount() {
-    let tabName = null;
-    if (Object.values(TABS).indexOf(window.location.pathname) >= 0) {
-      tabName = window.location.pathname.slice(1);
-    }
-    this.setSelectedTab(tabName);
-  }
-  
-  render() {
-    return (
-      <Router>
-        <div className="App">
-          { this.renderHeader() }
-            <Route path="/" exact component={ this.home } />
-            <Route path={TABS.languages} component={ () => (<Languages />) } />
-            <Route path={TABS.frameworks} component={ () => (<Frameworks />) } />
-            <Route path={TABS.careers} component={ () => (<Careers />) } />
-            <Route path={TABS.housing} component={ () => (<Housing />) } />
-        </div>
-      </Router>
-    );
-  }
-
-  renderHeader() {
+  function renderHeader() {
     return (
       <header className="App-header">
-        <Link to="/" onClick={() => this.setSelectedTab(null)}>
+        <Link to="/" onClick={() => setSelectedTab(null)}>
           <img className="banner" src={banner} alt="irregular" />
         </Link>
         <Navbar className="navbar">
           <Navbar.Brand className="navbar-brand">
-            <Link className="brand" to="/" onClick={() => this.setSelectedTab(null)}>Irreact</Link>
+            <Link className="brand" to="/" onClick={() => setSelectedTab(null)}>Irreact</Link>
           </Navbar.Brand>
           <Nav>
-            <Link className={this.getTabClass("languages")} to={TABS.languages} onClick={() => this.setSelectedTab("languages")}>
+            <Link className={getTabClass("languages")} to={TABS.languages} onClick={() => setSelectedTab("languages")}>
               LANGUAGES
             </Link>
-            <Link className={this.getTabClass("frameworks")} to={TABS.frameworks} onClick={() => this.setSelectedTab("frameworks")}>
+            <Link className={getTabClass("frameworks")} to={TABS.frameworks} onClick={() => setSelectedTab("frameworks")}>
               FRAMEWORKS
             </Link>
-            <Link className={this.getTabClass("careers")} to={TABS.careers} onClick={() => this.setSelectedTab("careers")}>
+            <Link className={getTabClass("careers")} to={TABS.careers} onClick={() => setSelectedTab("careers")}>
               CAREERS
             </Link>
-            <Link className={this.getTabClass("housing")} to={TABS.housing} onClick={() => this.setSelectedTab("housing")}>
+            <Link className={getTabClass("housing")} to={TABS.housing} onClick={() => setSelectedTab("housing")}>
               HOUSING
             </Link>
           </Nav>
@@ -77,19 +52,36 @@ class App extends Component {
     );
   }
 
-  setSelectedTab(tabName) {
-    this.setState({selectedTab: tabName});
-  }
+  useEffect(() => {
+    let mounted = true;
 
-  getTabClass(tabName) {
-    return this.state.selectedTab === tabName ? "navbar-link-selected" : "navbar-link";
-  }
+    if (mounted) {
+      let tabName = null;
+      if (Object.values(TABS).indexOf(window.location.pathname) >= 0) {
+        tabName = window.location.pathname.slice(1);
+      }
+      setSelectedTab(tabName);
+    }
 
-  home() {
-    return (
-      <img className="professor" src={professor} alt="professor" />
-    );
-  }
+    return () => mounted = false;
+  }, []);
+
+  return (
+    <Router>
+      <div className="App">
+        { renderHeader() }
+          <Route path="/" exact component={ home } />
+          <Route path={TABS.languages} component={ () => (<Languages />) } />
+          <Route path={TABS.frameworks} component={ () => (<Frameworks />) } />
+          <Route path={TABS.careers} component={ () => (<Careers />) } />
+          <Route path={TABS.housing} component={ () => (<Housing />) } />
+      </div>
+    </Router>
+  );
 }
 
-export default App;
+function home() {
+  return (
+    <img className="professor" src={professor} alt="professor" />
+  );
+}
