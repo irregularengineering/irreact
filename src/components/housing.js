@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Plot from 'react-plotly.js';
 import Plotly from 'plotly.js';
 import Select from 'react-select';
@@ -25,78 +25,40 @@ const DEFAULT_CITIES = [
   return { value: city, label: city }
 });
 
-class Housing extends Component {
-  _isMounted = false;
+export default function Housing() {
+  const [priceCities, setPriceCities] = useState();
+  const [priceData, setPriceData] = useState();
 
-  constructor(props) {
-    super(props);
-    this.measureSelected = this.measureSelected.bind(this);
-    this.citiesChanged = this.citiesChanged.bind(this);
-    this.loadData = this.loadData.bind(this);
-    this.state = {
-      priceCities: [],
-      priceData: [],
-      squareFootCities: [],
-      squareFootData: [],
-      cityOptions: [],
-      selectedCities: [],
-      selectedMeasure: null,
-    };
+  const [squareFootCities, setSquareFootCities] = useState();
+  const [squareFootData, setSquareFootData] = useState();
+
+  const [cityOptions, setCityOptions] = useState();
+  const [selectedCities, setSelectedCities] = useState();
+  const [selectedMeasure, setSelectedMeasure] = useState();
+  const [layout, setLayout] = useState({ ...LAYOUT, yaxis: {title: PRICE_MEASURE } });
+  const [plotData, setPlotData] = useState();
+
+  function handleCitiesChanged(selectedCities) { 
+    setSelectedCities(selectedCities);
+    loadData(selectedCities, selectedMeasure, priceData, squareFootData);
   }
-
-  componentDidMount() {
-    this._isMounted = true;
-    Plotly.d3.csv('/data/housing_price_data.csv', (err, rows) => {
-      let priceCitiesList = [...new Set(rows.map(row => row.city))].sort();
-      let priceCities = priceCitiesList.map(city => {
-        return { value: city, label: city }
-      });
-      if (this._isMounted) {
-        this.setState({ priceCities });
-        this.setState({ priceData: rows });
-        this.setState({ cityOptions: priceCities } );
-        this.setState({ selectedCities: DEFAULT_CITIES } );
-        this.setState({ selectedMeasure: PRICE_MEASURE } );
-        this.setState({ layout: { ...LAYOUT, yaxis: {title: PRICE_MEASURE } } });
-        this.loadData(DEFAULT_CITIES, PRICE_MEASURE, rows, []);
-      }
-    });
-    Plotly.d3.csv('/data/housing_price_per_foot_data.csv', (err, rows) => {
-      let squareFootCitiesList = [...new Set(rows.map(row => row.city))].sort();
-      let squareFootCities = squareFootCitiesList.map(city => {
-        return { value: city, label: city }
-      });
-      if (this._isMounted) {
-        this.setState({ squareFootCities });
-        this.setState({ squareFootData: rows });
-      }
-    });
-  }
-
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
-
-  citiesChanged(selectedCities) {
-    let { selectedMeasure, priceData, squareFootData } = this.state;
-    this.loadData(selectedCities, selectedMeasure, priceData, squareFootData);
-    this.setState({ selectedCities });
-  }
-
-  measureSelected(selectedMeasure) {
-    let { priceCities, squareFootCities, selectedCities, priceData, squareFootData } = this.state;
-    this.loadData(selectedCities, selectedMeasure, priceData, squareFootData);
+  
+  function handleMeasureSelected(selectedMeasure) {
     if (selectedMeasure === PRICE_MEASURE) {
-      this.setState({ cityOptions: priceCities });
+      setCityOptions(priceCities);
     } else {
-      this.setState({ cityOptions: squareFootCities });
+      setCityOptions(squareFootCities);
     }
-    this.setState({ layout: { ...LAYOUT, yaxis: {title: selectedMeasure } } });
-    this.setState({ selectedMeasure });
+    setLayout({ ...LAYOUT, yaxis: {title: selectedMeasure } });
+    setSelectedMeasure(selectedMeasure);
+    loadData(selectedCities, selectedMeasure, priceData, squareFootData);
   }
 
-  loadData(selectedCities, selectedMeasure, priceData, squareFootData) {
+  function loadData(selectedCities, selectedMeasure, priceData, squareFootData) {
     let rows = selectedMeasure === PRICE_MEASURE ? priceData : squareFootData;
+    if (!rows) {
+      return;
+    }
     let plotData = (selectedCities || []).map(city => {
       let cityRows = rows.filter(row => row.city === city.value);
       return {
@@ -107,57 +69,86 @@ class Housing extends Component {
         y: cityRows.map(row => row.price),
       };
     });
-    this.setState({ plotData });
+    setPlotData(plotData);
   }
 
-  render() {
-    let { selectedMeasure, selectedCities, cityOptions, plotData, layout } = this.state;
-    return (
-      <div className="container">
-        <div className="header">
-          <div className="chart-title">
-            Median Monthly Sale Price by California City
-          </div>
-          <div className="radio">
-            <ButtonGroup>
-              <Button 
-                className="radio-button"
-                active={selectedMeasure === PRICE_MEASURE} 
-                onClick={() => this.measureSelected(PRICE_MEASURE)}
-              >
-                {PRICE_MEASURE}
-              </Button>
-              <Button 
-                className="radio-button"
-                active={selectedMeasure === PRICE_PER_SQFT_MEASURE}
-                onClick={() => this.measureSelected(PRICE_PER_SQFT_MEASURE)}
-              >
-                {PRICE_PER_SQFT_MEASURE}
-              </Button>
-            </ButtonGroup>
-          </div>
+  useEffect(() => {
+    let mounted = true;
+
+    Plotly.d3.csv('/data/housing_price_data.csv', (err, priceData) => {
+      let priceCitiesList = [...new Set(priceData.map(row => row.city))].sort();
+      let priceCities = priceCitiesList.map(city => {
+        return { value: city, label: city }
+      });
+      if (mounted) {
+        setPriceCities(priceCities);
+        setPriceData(priceData);
+        setCityOptions(priceCities);
+        let selectedCities = DEFAULT_CITIES;
+        let selectedMeasure = PRICE_MEASURE;
+        setSelectedCities(selectedCities);
+        setSelectedMeasure(selectedMeasure);
+        loadData(selectedCities, selectedMeasure, priceData, []);
+      }
+
+      Plotly.d3.csv('/data/housing_price_per_foot_data.csv', (err, squareFootData) => {
+        let squareFootCitiesList = [...new Set(squareFootData.map(row => row.city))].sort();
+        let squareFootCities = squareFootCitiesList.map(city => {
+          return { value: city, label: city }
+        });
+        if (mounted) {
+          setSquareFootCities(squareFootCities);
+          setSquareFootData(squareFootData);
+        }
+      });
+    });
+
+    return () => mounted = false;
+  }, []);
+
+  return (
+    <div className="container">
+      <div className="header">
+        <div className="chart-title">
+          Median Monthly Sale Price by California City
         </div>
-        <div className="dropdown">
-          <Select
-            value={selectedCities}
-            onChange={this.citiesChanged}
-            options={cityOptions}
-            isMulti={true}
-            placeholder='Select cities...'
-          />
-        </div>
-        <div className="plot">
-          <Plot
-            data={plotData}
-            layout={layout}
-          />
-        </div>
-        <div className="source-link">
-          <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
+        <div className="radio">
+          <ButtonGroup>
+            <Button 
+              className="radio-button"
+              active={selectedMeasure === PRICE_MEASURE} 
+              onClick={() => handleMeasureSelected(PRICE_MEASURE)}
+            >
+              {PRICE_MEASURE}
+            </Button>
+            <Button 
+              className="radio-button"
+              active={selectedMeasure === PRICE_PER_SQFT_MEASURE}
+              onClick={() => handleMeasureSelected(PRICE_PER_SQFT_MEASURE)}
+            >
+              {PRICE_PER_SQFT_MEASURE}
+            </Button>
+          </ButtonGroup>
         </div>
       </div>
-    );
-  }
+      <div className="dropdown">
+        <Select
+          value={selectedCities}
+          onChange={handleCitiesChanged}
+          options={cityOptions}
+          isMulti={true}
+          placeholder='Select cities...'
+        />
+      </div>
+      <div className="plot">
+        <Plot
+          data={plotData}
+          layout={layout}
+        />
+      </div>
+      <div className="source-link">
+        <a href={SOURCE} target="_blank" rel="noopener noreferrer">Source: {SOURCE}</a>
+      </div>
+    </div>
+  );
 }
-
-export default Housing;
