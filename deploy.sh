@@ -2,6 +2,8 @@
 #
 # Deploy app to EC2
 #
+# Currently runs on instance type t2.xlarge
+#
 # Usage: ./deploy.sh <host> <keyfile>
 #
 # Exampe: ./deploy.sh ec2-52-41-10-63.us-west-2.compute.amazonaws.com ~/.ssh/irreact.pem
