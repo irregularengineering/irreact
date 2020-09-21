@@ -4,6 +4,13 @@ orbs:
   slack: circleci/slack@3.4.2
 
 jobs:
+  lint:
+    machine: true
+    steps:
+      - checkout
+      - run: npm install
+      - run: eslint 'src/**/*.js'
+
   deploy:
     machine: true
     steps:

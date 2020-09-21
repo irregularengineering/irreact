@@ -34,5 +34,9 @@
   ],
   "resolutions": {
     "**/fsevents": "^1.2.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6"
   }
 }
