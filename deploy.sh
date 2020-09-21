@@ -26,7 +26,7 @@ rsync -ravze "ssh" \
     --exclude '.git/' \
     --exclude 'node_modules/' \
     --exclude '.idea/' \
-    ~/irreact/* \
+    /var/www/irreact/* \
     ubuntu@$HOST:/var/www/irreact
 
 # Execute install script
