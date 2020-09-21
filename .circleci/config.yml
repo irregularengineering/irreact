@@ -6,10 +6,12 @@ orbs:
 
 jobs:
   lint:
-    machine: true
+    docker:
+      - image: circleci/node:12.18.1
+    working_directory: ~/repo
     steps:
       - checkout
-      - run: sudo npm install -g eslint
+      - run: npm install eslint
       - run: eslint 'project/src/**/*.js'
 
   deploy:
