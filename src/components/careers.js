@@ -75,7 +75,7 @@ export default function Careers() {
       }
     });
     return stateMap;
-  };
+  }
 
   function handleOccupationSelected(selectedOccupation) {
     setSelectedOccupation(selectedOccupation);
@@ -134,7 +134,7 @@ export default function Careers() {
   function renderTableRows(stateStats, occupations) {
     return (
       <tbody>
-        {occupations.map((occupation, key) => {
+        {occupations.map((occupation) => {
           return [
           <tr key={occupation.value}>
             <td>{occupation.label}</td>

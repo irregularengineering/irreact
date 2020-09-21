@@ -1,4 +1,9 @@
 module.exports = {
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "env": {
         "browser": true,
         "es2021": true
@@ -18,5 +23,6 @@ module.exports = {
         "react"
     ],
     "rules": {
-    }
+    },
+    "ignorePatterns": ["src/App.test.js", "src/serviceWorker.js"]
 };
