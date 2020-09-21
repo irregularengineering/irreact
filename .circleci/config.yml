@@ -24,7 +24,10 @@ workflows:
   version: 2
   irreact-cicd:
     jobs:
+      - lint
       - deploy:
           filters:
             branches:
-              only: reed/cd
+              only: master
+          requires:
+            - lint
