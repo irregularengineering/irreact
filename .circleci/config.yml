@@ -1,0 +1,23 @@
+version: 2.1
+
+orbs:
+  slack: circleci/slack@3.4.2
+
+jobs:
+  deploy:
+    machine: true
+    steps:
+      - checkout
+      - run: ./deploy.sh
+      - slack/status:
+          fail_only: true
+          mentions: 'r33d'
+
+workflows:
+  version: 2
+  irreact-cicd:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: reed/cd
