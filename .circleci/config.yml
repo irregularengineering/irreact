@@ -2,12 +2,10 @@ version: 2.1
 
 orbs:
   slack: circleci/slack@3.4.2
-
+  eslint: arrai/eslint@2.0.0
 jobs:
   lint:
     machine: true
-    pre:
-      - node node_modules/eslint/bin/eslint.js
     steps:
       - checkout
       - run: cd project
