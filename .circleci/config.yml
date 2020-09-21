@@ -6,9 +6,11 @@ orbs:
 jobs:
   lint:
     machine: true
+    pre:
+      - node node_modules/eslint/bin/eslint.js
     steps:
       - checkout
-      - run: npm install
+      - run: cd project
       - run: eslint 'src/**/*.js'
 
   deploy:
