@@ -3,14 +3,13 @@ version: 2.1
 orbs:
   slack: circleci/slack@3.4.2
   eslint: arrai/eslint@2.0.0
-  
+
 jobs:
   lint:
     machine: true
     steps:
       - checkout
-      - run: cd project
-      - run: eslint 'src/**/*.js'
+      - run: eslint 'project/src/**/*.js'
 
   deploy:
     machine: true
