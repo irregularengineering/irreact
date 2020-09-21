@@ -4,6 +4,15 @@ orbs:
   slack: circleci/slack@3.4.2
 
 jobs:
+  lint:
+    docker:
+      - image: circleci/node:12.4
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: npm install eslint
+      - run: npm run lint
+
   deploy:
     machine: true
     steps:
@@ -17,7 +26,10 @@ workflows:
   version: 2
   irreact-cicd:
     jobs:
+      - lint
       - deploy:
           filters:
             branches:
-              only: reed/cd
+              only: master
+          requires:
+            - lint
